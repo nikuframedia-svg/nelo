@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Models
+backend/models/*.pkl
+backend/models/*.joblib
+
+# Data
+backend/data/*.xlsx
+backend/data/*.xls
+backend/data/*.csv
+*.xlsx
+*.xls
+*.csv
+backend/app/data/**/*.xlsx
+backend/app/data/**/*.xls
+backend/app/data/**/*.csv
+backend/app/data/**/*.db
+backend/app/data/**/*.db-shm
+backend/app/data/**/*.db-wal
+backend/app/data/etl_status.json
+backend/data/**/*.json
+backend/data/**/*.db
+
+# Environment
+.env
+.env.local
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+

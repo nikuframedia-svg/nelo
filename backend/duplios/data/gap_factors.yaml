@@ -1,0 +1,189 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# GAP FILLING FACTORS - Internal Database for Lite Gap Filling
+# ═══════════════════════════════════════════════════════════════════════════════
+#
+# Contract D2: Gap Filling Lite factors database
+#
+# Sources: Industry averages, simplified LCA databases, sector benchmarks
+# Note: These are simplified factors for gap filling. For production, integrate
+# with Ecoinvent/EF databases for higher accuracy.
+#
+# ═══════════════════════════════════════════════════════════════════════════════
+
+materials:
+  # Metals
+  steel:
+    base_co2_kg_per_kg: 1.8
+    base_water_m3_per_kg: 0.5
+    base_recyclability: 0.95
+    base_energy_kwh_per_kg: 6.0
+  
+  stainless_steel:
+    base_co2_kg_per_kg: 4.0
+    base_water_m3_per_kg: 0.6
+    base_recyclability: 0.85
+    base_energy_kwh_per_kg: 12.0
+  
+  aluminum:
+    base_co2_kg_per_kg: 8.1
+    base_water_m3_per_kg: 0.7
+    base_recyclability: 0.95
+    base_energy_kwh_per_kg: 15.0
+  
+  copper:
+    base_co2_kg_per_kg: 3.0
+    base_water_m3_per_kg: 0.8
+    base_recyclability: 0.90
+    base_energy_kwh_per_kg: 8.0
+  
+  # Plastics
+  polypropylene:
+    base_co2_kg_per_kg: 1.9
+    base_water_m3_per_kg: 0.3
+    base_recyclability: 0.60
+    base_energy_kwh_per_kg: 4.0
+  
+  polyethylene:
+    base_co2_kg_per_kg: 2.0
+    base_water_m3_per_kg: 0.3
+    base_recyclability: 0.55
+    base_energy_kwh_per_kg: 4.2
+  
+  polyester:
+    base_co2_kg_per_kg: 9.0
+    base_water_m3_per_kg: 3.0
+    base_recyclability: 0.50
+    base_energy_kwh_per_kg: 5.0
+  
+  pvc:
+    base_co2_kg_per_kg: 2.3
+    base_water_m3_per_kg: 0.4
+    base_recyclability: 0.40
+    base_energy_kwh_per_kg: 4.5
+  
+  abs:
+    base_co2_kg_per_kg: 3.5
+    base_water_m3_per_kg: 0.5
+    base_recyclability: 0.45
+    base_energy_kwh_per_kg: 5.5
+  
+  # Textiles
+  cotton:
+    base_co2_kg_per_kg: 4.0
+    base_water_m3_per_kg: 7.0
+    base_recyclability: 0.70
+    base_energy_kwh_per_kg: 2.0
+  
+  wool:
+    base_co2_kg_per_kg: 25.0
+    base_water_m3_per_kg: 5.0
+    base_recyclability: 0.80
+    base_energy_kwh_per_kg: 3.0
+  
+  # Electronics
+  pcb:
+    base_co2_kg_per_kg: 15.0
+    base_water_m3_per_kg: 2.0
+    base_recyclability: 0.30
+    base_energy_kwh_per_kg: 20.0
+  
+  silicon:
+    base_co2_kg_per_kg: 12.0
+    base_water_m3_per_kg: 1.5
+    base_recyclability: 0.20
+    base_energy_kwh_per_kg: 25.0
+  
+  # Glass
+  glass:
+    base_co2_kg_per_kg: 0.8
+    base_water_m3_per_kg: 0.2
+    base_recyclability: 0.90
+    base_energy_kwh_per_kg: 1.5
+  
+  # Wood
+  wood:
+    base_co2_kg_per_kg: 0.5
+    base_water_m3_per_kg: 0.1
+    base_recyclability: 0.85
+    base_energy_kwh_per_kg: 0.5
+  
+  # Ceramics
+  ceramic:
+    base_co2_kg_per_kg: 1.2
+    base_water_m3_per_kg: 0.3
+    base_recyclability: 0.10
+    base_energy_kwh_per_kg: 3.0
+  
+  # Default fallback
+  default:
+    base_co2_kg_per_kg: 2.5
+    base_water_m3_per_kg: 1.0
+    base_recyclability: 0.50
+    base_energy_kwh_per_kg: 5.0
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# COUNTRY ADJUSTMENT FACTORS
+# ═══════════════════════════════════════════════════════════════════════════════
+# Energy CO2 factor vs EU average (1.0)
+# Based on electricity grid mix carbon intensity
+
+countries:
+  PT:
+    energy_co2_factor_vs_eu: 0.6
+    name: "Portugal"
+  
+  PL:
+    energy_co2_factor_vs_eu: 1.8
+    name: "Poland"
+  
+  DE:
+    energy_co2_factor_vs_eu: 0.9
+    name: "Germany"
+  
+  FR:
+    energy_co2_factor_vs_eu: 0.5
+    name: "France"
+  
+  ES:
+    energy_co2_factor_vs_eu: 0.7
+    name: "Spain"
+  
+  IT:
+    energy_co2_factor_vs_eu: 0.8
+    name: "Italy"
+  
+  UK:
+    energy_co2_factor_vs_eu: 0.6
+    name: "United Kingdom"
+  
+  US:
+    energy_co2_factor_vs_eu: 1.2
+    name: "United States"
+  
+  CN:
+    energy_co2_factor_vs_eu: 2.5
+    name: "China"
+  
+  IN:
+    energy_co2_factor_vs_eu: 2.0
+    name: "India"
+  
+  BR:
+    energy_co2_factor_vs_eu: 0.4
+    name: "Brazil"
+  
+  DEFAULT:
+    energy_co2_factor_vs_eu: 1.0
+    name: "Default (EU average)"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# TECHNOLOGY AGE ADJUSTMENT
+# ═══════════════════════════════════════════════════════════════════════════════
+# Older technology typically has higher environmental impact
+
+tech_age_adjustment:
+  young: 1.0      # <5 years - modern, efficient
+  mid: 1.1        # 5-15 years - moderate efficiency
+  old: 1.3        # >15 years - older, less efficient
+
+

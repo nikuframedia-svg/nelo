@@ -1,0 +1,181 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# COMPLIANCE RULES - ESPR / CBAM / CSRD Requirements
+# ═══════════════════════════════════════════════════════════════════════════════
+#
+# Contract D3: Compliance Radar rules database
+#
+# Structure:
+# - Each regulation has categories/blocks
+# - Each block has: required (bool), fields (list), severity (int)
+# - Fields are checked in DPP data
+# - Score calculated based on presence and severity
+#
+# ═══════════════════════════════════════════════════════════════════════════════
+
+espr:
+  identification:
+    required: true
+    fields:
+      - gtin
+      - serial_or_lot
+      - manufacturer_name
+      - country_of_origin
+    severity: 3
+    description: "Identificação única do produto (GTIN, série/lote, fabricante, país)"
+  
+  composition:
+    required: true
+    fields:
+      - materials
+    severity: 3
+    description: "Composição de materiais (lista de materiais com percentagens)"
+  
+  environmental_core:
+    required: true
+    fields:
+      - carbon_footprint_kg_co2eq
+      - carbon_kg_co2eq
+    severity: 3
+    description: "Pegada de carbono (kg CO₂eq)"
+  
+  water_usage:
+    required: false
+    fields:
+      - water_m3
+      - water_consumption_m3
+    severity: 2
+    description: "Consumo de água (m³)"
+  
+  energy_usage:
+    required: false
+    fields:
+      - energy_kwh
+      - energy_consumption_kwh
+    severity: 2
+    description: "Consumo de energia (kWh)"
+  
+  circularity_core:
+    required: true
+    fields:
+      - recycled_content_pct
+      - recycled_content_percent
+      - recyclability_pct
+      - recyclability_percent
+    severity: 3
+    description: "Conteúdo reciclado e reciclabilidade (%)"
+  
+  durability:
+    required: false
+    fields:
+      - durability_score
+    severity: 1
+    description: "Score de durabilidade (1-10)"
+  
+  reparability:
+    required: false
+    fields:
+      - reparability_score
+    severity: 1
+    description: "Score de reparabilidade (1-10)"
+  
+  end_of_life:
+    required: false
+    fields:
+      - end_of_life_instructions
+      - disposal_method
+    severity: 2
+    description: "Instruções de fim de vida"
+  
+  certifications:
+    required: false
+    fields:
+      - certifications
+    severity: 2
+    description: "Certificações e normas (lista)"
+
+cbam:
+  applicable_categories:
+    - steel
+    - aluminium
+    - aluminum
+    - cement
+    - cemento
+    - fertilisers
+    - fertilizantes
+    - hydrogen
+    - hidrogénio
+    - electricity
+    - electricidade
+  
+  embedded_emissions:
+    required: true
+    fields:
+      - carbon_footprint_kg_co2eq
+      - carbon_kg_co2eq
+      - embedded_co2_per_ton
+    severity: 3
+    description: "Emissões incorporadas (kg CO₂eq ou por tonelada)"
+  
+  origin_country:
+    required: true
+    fields:
+      - country_of_origin
+      - origin_country
+    severity: 2
+    description: "País de origem do produto"
+  
+  manufacturing_site:
+    required: true
+    fields:
+      - manufacturing_site_id
+      - manufacturing_site
+    severity: 2
+    description: "ID do local de fabrico"
+  
+  energy_intensity:
+    required: false
+    fields:
+      - energy_kwh
+      - energy_consumption_kwh
+    severity: 1
+    description: "Intensidade energética (kWh)"
+
+csrd:
+  e1_climate:
+    required: true
+    fields:
+      - carbon_footprint_kg_co2eq
+      - carbon_kg_co2eq
+      - scope1_co2
+      - scope2_co2
+      - scope3_co2
+    severity: 3
+    description: "E1 - Mudanças climáticas (emissões de carbono)"
+  
+  e5_circular:
+    required: false
+    fields:
+      - waste_generated_kg
+      - recycling_rate_percent
+      - recycled_content_pct
+      - recyclability_pct
+    severity: 2
+    description: "E5 - Economia circular (resíduos, reciclagem)"
+  
+  certifications_reporting:
+    required: false
+    fields:
+      - certifications
+      - third_party_audits
+    severity: 2
+    description: "Certificações e auditorias de terceiros"
+  
+  social_indicators:
+    required: false
+    fields:
+      - labor_conditions
+      - social_compliance
+    severity: 1
+    description: "Indicadores sociais (opcional)"
+
+

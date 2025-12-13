@@ -1,0 +1,216 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# COLUMN ALIASES - Mapeamento Flexível de Colunas Excel
+# ═══════════════════════════════════════════════════════════════════════════════
+#
+# Contract 14: Mapeamento de colunas do Excel para campos do schema
+#
+# Estrutura:
+# - Cada tipo de dados (orders, inventory_moves, hr, machines) tem aliases
+# - O parser tenta mapear colunas do Excel usando estes aliases
+# - Aceita variações como "Produto", "Código Produto", "product_code"
+#
+# ═══════════════════════════════════════════════════════════════════════════════
+
+orders:
+  external_order_code:
+    - "Código Ordem"
+    - "Ordem"
+    - "Order Code"
+    - "Order"
+    - "OP"
+    - "OP Code"
+    - "external_order_code"
+  
+  product_code:
+    - "Código Produto"
+    - "Produto"
+    - "Product Code"
+    - "Product"
+    - "Artigo"
+    - "Item"
+    - "product_code"
+  
+  quantity:
+    - "Quantidade"
+    - "Qty"
+    - "QTD"
+    - "Quantity"
+    - "Q"
+    - "quantity"
+  
+  due_date:
+    - "Data Entrega"
+    - "Due Date"
+    - "Entrega"
+    - "Delivery Date"
+    - "Data Final"
+    - "due_date"
+  
+  routing:
+    - "Sequência"
+    - "Routing"
+    - "Operações"
+    - "Operations"
+    - "Roteiro"
+    - "Seq"
+    - "routing"
+  
+  line_or_center:
+    - "Linha"
+    - "Line"
+    - "Centro"
+    - "Center"
+    - "Célula"
+    - "Cell"
+    - "line_or_center"
+
+inventory_moves:
+  order_code:
+    - "Código Ordem"
+    - "Ordem"
+    - "Order Code"
+    - "Order"
+    - "OP"
+    - "order_code"
+  
+  from_station:
+    - "De"
+    - "From"
+    - "Origem"
+    - "From Station"
+    - "Estação Origem"
+    - "from_station"
+  
+  to_station:
+    - "Para"
+    - "To"
+    - "Destino"
+    - "To Station"
+    - "Estação Destino"
+    - "to_station"
+  
+  movement_type:
+    - "Tipo"
+    - "Type"
+    - "Tipo Movimento"
+    - "Movement Type"
+    - "movement_type"
+  
+  quantity_good:
+    - "Quantidade Boa"
+    - "Qty Good"
+    - "Boa"
+    - "Good"
+    - "quantity_good"
+  
+  quantity_scrap:
+    - "Quantidade Refugo"
+    - "Qty Scrap"
+    - "Refugo"
+    - "Scrap"
+    - "quantity_scrap"
+  
+  timestamp:
+    - "Data"
+    - "Date"
+    - "Data/Hora"
+    - "Timestamp"
+    - "Hora"
+    - "Time"
+    - "timestamp"
+
+hr:
+  technician_code:
+    - "Código Técnico"
+    - "Técnico"
+    - "Technician Code"
+    - "Technician"
+    - "ID"
+    - "Code"
+    - "technician_code"
+  
+  name:
+    - "Nome"
+    - "Name"
+    - "Nome Completo"
+    - "Full Name"
+    - "name"
+  
+  role:
+    - "Função"
+    - "Role"
+    - "Cargo"
+    - "Position"
+    - "role"
+  
+  skills:
+    - "Skills"
+    - "Competências"
+    - "Habilidades"
+    - "skills"
+    - "skills_json"
+  
+  shift_pattern:
+    - "Turno"
+    - "Shift"
+    - "Padrão Turno"
+    - "Shift Pattern"
+    - "Horário"
+    - "shift_pattern"
+  
+  home_cell:
+    - "Célula"
+    - "Cell"
+    - "Célula Base"
+    - "Home Cell"
+    - "home_cell"
+
+machines:
+  machine_code:
+    - "Código Máquina"
+    - "Máquina"
+    - "Machine Code"
+    - "Machine"
+    - "ID"
+    - "Code"
+    - "machine_code"
+  
+  description:
+    - "Descrição"
+    - "Description"
+    - "Nome"
+    - "Name"
+    - "description"
+  
+  line:
+    - "Linha"
+    - "Line"
+    - "Linha Produção"
+    - "Production Line"
+    - "line"
+  
+  capacity_per_shift_hours:
+    - "Capacidade"
+    - "Capacity"
+    - "Capacidade Turno"
+    - "Capacity per Shift"
+    - "Horas Turno"
+    - "Hours per Shift"
+    - "capacity_per_shift_hours"
+  
+  avg_setup_time_minutes:
+    - "Setup"
+    - "Setup Time"
+    - "Tempo Setup"
+    - "Setup Médio"
+    - "Avg Setup"
+    - "avg_setup_time_minutes"
+  
+  maintenance_windows:
+    - "Manutenção"
+    - "Maintenance"
+    - "Janelas Manutenção"
+    - "Maintenance Windows"
+    - "maintenance_windows"
+
+

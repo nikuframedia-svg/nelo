@@ -1,0 +1,254 @@
+{
+  "version": "4.0.0",
+  "generated_at": "2025-12-10",
+  "modules": {
+    "ProdPlan": {
+      "description": "Cockpit de planeamento de produção",
+      "submodules": {
+        "Scheduling": {
+          "features": [
+            {"name": "FIFO/EDD/SPT Heuristics", "endpoint": "/scheduling/run", "status": "implemented"},
+            {"name": "Flow Shop (Chained)", "endpoint": "/scheduling/run", "status": "implemented"},
+            {"name": "CP-SAT Optimization", "endpoint": "/scheduling/run", "status": "implemented"},
+            {"name": "MILP Scheduling", "endpoint": "/scheduling/milp", "status": "implemented"},
+            {"name": "Data-Driven Durations", "endpoint": "/scheduling/data-driven", "status": "implemented"}
+          ]
+        },
+        "What-If": {
+          "features": [
+            {"name": "Remove Machine", "endpoint": "/whatif", "status": "implemented"},
+            {"name": "Add Shift", "endpoint": "/whatif", "status": "implemented"},
+            {"name": "Change Load", "endpoint": "/whatif", "status": "implemented"},
+            {"name": "Scenario Comparison", "endpoint": "/whatif/compare", "status": "implemented"}
+          ]
+        },
+        "Bottlenecks": {
+          "features": [
+            {"name": "Bottleneck Detection", "endpoint": "/bottleneck", "status": "implemented"},
+            {"name": "AI Recommendations", "endpoint": "/suggestions", "status": "implemented"}
+          ]
+        },
+        "Shopfloor": {
+          "features": [
+            {"name": "Start/Pause/Stop OP", "endpoint": "/shopfloor/operations", "status": "implemented"},
+            {"name": "Scrap Recording", "endpoint": "/shopfloor/operations/scrap", "status": "implemented"},
+            {"name": "Downtime Reasons", "endpoint": "/shopfloor/operations/downtime", "status": "implemented"}
+          ]
+        },
+        "Work Instructions": {
+          "features": [
+            {"name": "Step-by-Step Instructions", "endpoint": "/work-instructions/instructions", "status": "implemented"},
+            {"name": "Quality Checklists", "endpoint": "/work-instructions/executions", "status": "implemented"},
+            {"name": "Poka-Yoke Validation", "endpoint": "/work-instructions/executions/{id}/steps", "status": "implemented"}
+          ]
+        }
+      }
+    },
+    "SmartInventory": {
+      "description": "Gestão avançada de inventário",
+      "submodules": {
+        "Stock State": {
+          "features": [
+            {"name": "Real-time Stock", "endpoint": "/inventory/sku", "status": "implemented"},
+            {"name": "Committed/In-Transit", "endpoint": "/inventory/sku/{sku}", "status": "implemented"},
+            {"name": "Coverage Days", "endpoint": "/inventory/coverage", "status": "implemented"},
+            {"name": "Rupture Risk", "endpoint": "/inventory/risk", "status": "implemented"}
+          ]
+        },
+        "Classification": {
+          "features": [
+            {"name": "ABC Analysis", "endpoint": "/inventory/abc", "status": "implemented"},
+            {"name": "XYZ Analysis", "endpoint": "/inventory/xyz", "status": "implemented"},
+            {"name": "ABC-XYZ Matrix", "endpoint": "/inventory/abc-xyz", "status": "implemented"}
+          ]
+        },
+        "BOM Intelligence": {
+          "features": [
+            {"name": "Multi-level Explosion", "endpoint": "/mrp/bom/explode", "status": "implemented"},
+            {"name": "Where-Used Query", "endpoint": "/mrp/bom/where-used", "status": "implemented"}
+          ]
+        },
+        "MRP": {
+          "features": [
+            {"name": "Full MRP Run", "endpoint": "/mrp-complete/run", "status": "implemented"},
+            {"name": "Net Requirements", "endpoint": "/mrp-complete/runs/{id}", "status": "implemented"},
+            {"name": "Planned Orders", "endpoint": "/mrp-complete/runs/{id}/orders", "status": "implemented"},
+            {"name": "Capacity Check", "endpoint": "/mrp-complete/runs/{id}/capacity", "status": "implemented"}
+          ]
+        },
+        "Forecasting": {
+          "features": [
+            {"name": "Demand Forecast (BASE)", "endpoint": "/inventory/forecast", "status": "implemented"},
+            {"name": "Forecast (ADVANCED)", "endpoint": "/inventory/forecast", "status": "implemented"},
+            {"name": "ROP Calculation", "endpoint": "/inventory/rop", "status": "implemented"},
+            {"name": "Dynamic ROP", "endpoint": "/inventory/rop/dynamic", "status": "implemented"}
+          ]
+        }
+      }
+    },
+    "Duplios": {
+      "description": "Passaportes Digitais de Produto",
+      "submodules": {
+        "PDM": {
+          "features": [
+            {"name": "Item Management", "endpoint": "/pdm/items", "status": "implemented"},
+            {"name": "Revision Workflow", "endpoint": "/pdm/items/{id}/revisions", "status": "implemented"},
+            {"name": "BOM Management", "endpoint": "/pdm/revisions/{id}/bom", "status": "implemented"},
+            {"name": "Routing Management", "endpoint": "/pdm/revisions/{id}/routing", "status": "implemented"},
+            {"name": "ECR/ECO Workflow", "endpoint": "/pdm/ecr", "status": "implemented"},
+            {"name": "Attachments", "endpoint": "/pdm/items/{id}/attachments", "status": "partial"}
+          ]
+        },
+        "DPP": {
+          "features": [
+            {"name": "Identity Management", "endpoint": "/duplios/dpp", "status": "implemented"},
+            {"name": "Composition Data", "endpoint": "/duplios/dpp/{id}", "status": "implemented"},
+            {"name": "Environmental Impact", "endpoint": "/duplios/dpp/{id}/impact", "status": "implemented"},
+            {"name": "Circularity Score", "endpoint": "/duplios/dpp/{id}/circularity", "status": "implemented"},
+            {"name": "Compliance Check", "endpoint": "/duplios/dpp/{id}/compliance", "status": "implemented"}
+          ]
+        },
+        "LCA": {
+          "features": [
+            {"name": "Carbon Footprint", "endpoint": "/duplios/lca/carbon", "status": "implemented"},
+            {"name": "Impact Assessment", "endpoint": "/duplios/lca/impact", "status": "implemented"}
+          ]
+        },
+        "Digital Identity": {
+          "features": [
+            {"name": "RFID/QR Registration", "endpoint": "/duplios/identity", "status": "implemented"},
+            {"name": "Identity Verification", "endpoint": "/duplios/identity/verify", "status": "implemented"},
+            {"name": "Lineage Tracking", "endpoint": "/duplios/identity/{id}/lineage", "status": "implemented"}
+          ]
+        }
+      }
+    },
+    "DigitalTwin": {
+      "description": "Gémeo Digital Industrial",
+      "submodules": {
+        "SHI-DT": {
+          "features": [
+            {"name": "Health Index (CVAE)", "endpoint": "/shi-dt/machines/{id}/health", "status": "implemented"},
+            {"name": "RUL Estimation (Base)", "endpoint": "/shi-dt/machines/{id}/rul", "status": "implemented"},
+            {"name": "RUL (DeepSurv)", "endpoint": "/shi-dt/machines/{id}/rul", "status": "implemented"},
+            {"name": "Sensor Data Ingestion", "endpoint": "/shi-dt/data/ingest", "status": "implemented"},
+            {"name": "Alerts", "endpoint": "/shi-dt/alerts", "status": "implemented"}
+          ]
+        },
+        "XAI-DT Product": {
+          "features": [
+            {"name": "CAD vs Scan Analysis", "endpoint": "/xai-dt/analysis", "status": "implemented"},
+            {"name": "Deviation Field", "endpoint": "/xai-dt/analysis/{id}", "status": "implemented"},
+            {"name": "Root Cause Analysis", "endpoint": "/xai-dt/analysis/{id}/rca", "status": "implemented"},
+            {"name": "Corrective Actions", "endpoint": "/xai-dt/analysis/{id}/actions", "status": "implemented"}
+          ]
+        },
+        "ZDM": {
+          "features": [
+            {"name": "Failure Scenarios", "endpoint": "/zdm/scenarios", "status": "implemented"},
+            {"name": "Resilience Score", "endpoint": "/zdm/simulate", "status": "implemented"},
+            {"name": "Recovery Strategies", "endpoint": "/zdm/strategies", "status": "implemented"}
+          ]
+        },
+        "Golden Runs": {
+          "features": [
+            {"name": "Record Golden Run", "endpoint": "/optimization/golden-runs/record", "status": "implemented"},
+            {"name": "Parameter Suggestions", "endpoint": "/optimization/golden-runs/recommendations/{...}", "status": "implemented"},
+            {"name": "Gap Analysis", "endpoint": "/optimization/golden-runs/gap", "status": "implemented"}
+          ]
+        }
+      }
+    },
+    "LatifAI": {
+      "description": "Motor de IA Causal e Otimização",
+      "submodules": {
+        "Causal Analysis": {
+          "features": [
+            {"name": "Causal Graph", "endpoint": "/causal/graph", "status": "implemented"},
+            {"name": "OLS Estimation", "endpoint": "/causal/estimate", "status": "implemented"},
+            {"name": "DML Estimation", "endpoint": "/causal/estimate", "status": "implemented"},
+            {"name": "Treatment Effects", "endpoint": "/causal/effects", "status": "implemented"}
+          ]
+        },
+        "What-If Advanced": {
+          "features": [
+            {"name": "Causal What-If", "endpoint": "/whatif/causal", "status": "partial"},
+            {"name": "Multi-scenario Compare", "endpoint": "/whatif/compare", "status": "implemented"}
+          ]
+        },
+        "Optimization": {
+          "features": [
+            {"name": "Time Prediction (ML)", "endpoint": "/optimization/predict-time", "status": "implemented"},
+            {"name": "Parameter Optimization", "endpoint": "/optimization/parameters/optimize", "status": "implemented"},
+            {"name": "Schedule Optimization", "endpoint": "/optimization/schedule/solve", "status": "implemented"},
+            {"name": "Pareto Frontier", "endpoint": "/optimization/pareto/optimize", "status": "implemented"}
+          ]
+        },
+        "Prevention Guard": {
+          "features": [
+            {"name": "PDM Validation", "endpoint": "/guard/validate/product-release", "status": "implemented"},
+            {"name": "Shopfloor Validation", "endpoint": "/guard/validate/order-start", "status": "implemented"},
+            {"name": "Risk Prediction", "endpoint": "/guard/predict-risk", "status": "implemented"},
+            {"name": "Exception Workflow", "endpoint": "/guard/exceptions", "status": "implemented"}
+          ]
+        }
+      }
+    },
+    "RD": {
+      "description": "Investigação e Desenvolvimento (SIFIDE)",
+      "submodules": {
+        "WP1 Routing": {
+          "features": [
+            {"name": "Heuristics vs MILP", "endpoint": "/rd/wp1/run", "status": "implemented"},
+            {"name": "CP-SAT Experiments", "endpoint": "/rd/wp1/run", "status": "implemented"},
+            {"name": "DRL Policy Testing", "endpoint": "/rd/wp1/run", "status": "partial"}
+          ]
+        },
+        "WP2 Suggestions": {
+          "features": [
+            {"name": "Suggestion Evaluation", "endpoint": "/rd/wp2/evaluate-all", "status": "implemented"},
+            {"name": "Performance Metrics", "endpoint": "/rd/wp2/summary", "status": "implemented"}
+          ]
+        },
+        "WP3 Inventory+Capacity": {
+          "features": [
+            {"name": "Policy Comparison", "endpoint": "/rd/wp3/run", "status": "implemented"},
+            {"name": "Conservative/Baseline/Lean", "endpoint": "/rd/wp3/run", "status": "implemented"}
+          ]
+        },
+        "WP4 Learning Scheduler": {
+          "features": [
+            {"name": "Bandit Experiments", "endpoint": "/rd/wp4/run", "status": "implemented"},
+            {"name": "DRL Training", "endpoint": "/rd/wp4/run", "status": "partial"}
+          ]
+        },
+        "Reporting": {
+          "features": [
+            {"name": "SIFIDE Summary", "endpoint": "/rd/report/summary", "status": "implemented"},
+            {"name": "Export JSON/PDF", "endpoint": "/rd/report/export", "status": "partial"}
+          ]
+        }
+      }
+    },
+    "Copilot": {
+      "description": "Assistente IA",
+      "submodules": {
+        "Chat": {
+          "features": [
+            {"name": "Natural Language Query", "endpoint": "/chat", "status": "implemented"},
+            {"name": "Planning Intent", "endpoint": "/chat", "status": "implemented"},
+            {"name": "Inventory Intent", "endpoint": "/chat", "status": "implemented"},
+            {"name": "DPP Intent", "endpoint": "/chat", "status": "implemented"},
+            {"name": "Digital Twin Intent", "endpoint": "/chat", "status": "implemented"}
+          ]
+        }
+      }
+    }
+  },
+  "status_legend": {
+    "implemented": "Feature fully implemented and tested",
+    "partial": "Feature partially implemented, needs completion",
+    "planned": "Feature planned but not yet implemented",
+    "deprecated": "Feature deprecated, scheduled for removal"
+  }
+}

@@ -1,0 +1,131 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Models & Weights (exclude large model files)
+*.pkl
+*.joblib
+*.h5
+*.ckpt
+*.pt
+*.pth
+models/weights/
+*.onnx
+
+# Databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Data files (exclude large datasets)
+*.xlsx
+*.xls
+*.csv
+data/**/*.xlsx
+data/**/*.xls
+data/**/*.csv
+data/**/*.json
+backend/data/**/*.xlsx
+backend/data/**/*.csv
+backend/data/**/*.json
+
+# Environment & Secrets
+.env
+.env.*
+*.key
+*.pem
+*.cert
+*.crt
+secrets/
+credentials/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+.yarn/
+
+# Frontend build outputs
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.parcel-cache/
+frontend/.next/
+frontend/out/
+factory-optimizer/frontend/dist/
+factory-optimizer/frontend/build/
+factory-optimizer/frontend/.vite/
+factory-optimizer/frontend/.parcel-cache/
+factory-optimizer/frontend/.next/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage/
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Experiments & Research
+experiments/logs/
+backend/experiments/logs/
+data/experiments/
+
+# Local configuration
+config.local.*
+settings.local.*
+
+

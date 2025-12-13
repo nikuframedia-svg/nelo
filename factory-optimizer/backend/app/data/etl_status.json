@@ -1,0 +1,1429 @@
+{
+  "last_run": "2025-12-10T01:46:31.853366",
+  "last_import_at": "2025-12-10T01:46:31.853366",
+  "files": [
+    {
+      "filename": "Nikufra DadosProducao.xlsx",
+      "path": "/Users/martimnicolau/mvp geral/factory-optimizer/backend/app/data/Nikufra DadosProducao.xlsx",
+      "size_bytes": 7283,
+      "modified_at": "2025-11-25T14:04:21.986465",
+      "status": "processed",
+      "summary": {
+        "artigos": 10,
+        "skus": 0
+      },
+      "sheets": [
+        {
+          "sheet": "Roteiros",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "Staffing",
+          "type": "staffing",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "Ordens",
+          "type": "ordens",
+          "status": "ok",
+          "mapped_pct": 100.0
+        }
+      ],
+      "warnings": [],
+      "timestamp": "2025-11-25T14:04:24.028976"
+    },
+    {
+      "filename": "Nikufra Stocks.xlsx",
+      "path": "/Users/martimnicolau/mvp geral/factory-optimizer/backend/app/data/Nikufra Stocks.xlsx",
+      "size_bytes": 25701,
+      "modified_at": "2025-11-25T14:04:22.764494",
+      "status": "processed",
+      "summary": {
+        "artigos": 0,
+        "skus": 8
+      },
+      "sheets": [
+        {
+          "sheet": "Stocks_mov",
+          "type": "stocks_mov",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "Stocks_snap",
+          "type": "stocks_snap",
+          "status": "ok",
+          "mapped_pct": 100.0
+        }
+      ],
+      "warnings": [],
+      "timestamp": "2025-11-25T14:04:24.813115"
+    },
+    {
+      "filename": "Nikufra DadosProducao.xlsx",
+      "path": "/Users/martimnicolau/mvp geral/factory-optimizer/backend/app/data/Nikufra DadosProducao.xlsx",
+      "size_bytes": 7283,
+      "modified_at": "2025-11-25T14:04:21.986465",
+      "status": "processed",
+      "summary": {
+        "artigos": 10,
+        "skus": 0
+      },
+      "sheets": [
+        {
+          "sheet": "Roteiros",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "Staffing",
+          "type": "staffing",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "Ordens",
+          "type": "ordens",
+          "status": "ok",
+          "mapped_pct": 100.0
+        }
+      ],
+      "warnings": [],
+      "timestamp": "2025-11-25T14:05:26.121870"
+    },
+    {
+      "filename": "Nikufra Stocks.xlsx",
+      "path": "/Users/martimnicolau/mvp geral/factory-optimizer/backend/app/data/Nikufra Stocks.xlsx",
+      "size_bytes": 25701,
+      "modified_at": "2025-11-25T14:04:22.764494",
+      "status": "processed",
+      "summary": {
+        "artigos": 0,
+        "skus": 8
+      },
+      "sheets": [
+        {
+          "sheet": "Stocks_mov",
+          "type": "stocks_mov",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "Stocks_snap",
+          "type": "stocks_snap",
+          "status": "ok",
+          "mapped_pct": 100.0
+        }
+      ],
+      "warnings": [],
+      "timestamp": "2025-11-25T14:05:26.656360"
+    },
+    {
+      "filename": "Nikufra DadosProducao.xlsx",
+      "path": "/Users/martimnicolau/mvp geral/factory-optimizer/backend/app/data/Nikufra DadosProducao.xlsx",
+      "size_bytes": 25558,
+      "modified_at": "2025-11-25T21:25:05.907254",
+      "status": "processed",
+      "summary": {
+        "artigos": 1,
+        "skus": 0
+      },
+      "sheets": [
+        {
+          "sheet": "WIKI",
+          "type": "unknown",
+          "status": "unknown",
+          "mapped_pct": 0.0
+        },
+        {
+          "sheet": "GO Artigo 1",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 2",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 3",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 4",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 5",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 6",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        }
+      ],
+      "warnings": [
+        "Folha WIKI (Nikufra DadosProducao.xlsx) não foi reconhecida automaticamente. Utilize /api/etl/preview para mapear manualmente."
+      ],
+      "timestamp": "2025-11-25T21:25:06.446907"
+    },
+    {
+      "filename": "Nikufra Stocks.xlsx",
+      "path": "/Users/martimnicolau/mvp geral/factory-optimizer/backend/app/data/Nikufra Stocks.xlsx",
+      "size_bytes": 25701,
+      "modified_at": "2025-11-25T21:32:58.158071",
+      "status": "processed",
+      "summary": {
+        "artigos": 0,
+        "skus": 8
+      },
+      "sheets": [
+        {
+          "sheet": "Stocks_mov",
+          "type": "stocks_mov",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "Stocks_snap",
+          "type": "stocks_snap",
+          "status": "ok",
+          "mapped_pct": 100.0
+        }
+      ],
+      "warnings": [],
+      "timestamp": "2025-11-25T21:32:59.241711"
+    },
+    {
+      "filename": "Nikufra DadosProducao.xlsx",
+      "path": "/Users/martimnicolau/mvp geral/factory-optimizer/backend/app/data/Nikufra DadosProducao.xlsx",
+      "size_bytes": 25558,
+      "modified_at": "2025-11-25T21:32:58.159902",
+      "status": "processed",
+      "summary": {
+        "artigos": 1,
+        "skus": 0
+      },
+      "sheets": [
+        {
+          "sheet": "WIKI",
+          "type": "unknown",
+          "status": "unknown",
+          "mapped_pct": 0.0
+        },
+        {
+          "sheet": "GO Artigo 1",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 2",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 3",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 4",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 5",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 6",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        }
+      ],
+      "warnings": [
+        "Folha WIKI (Nikufra DadosProducao.xlsx) não foi reconhecida automaticamente. Utilize /api/etl/preview para mapear manualmente."
+      ],
+      "timestamp": "2025-11-25T21:32:59.429176"
+    },
+    {
+      "filename": "Nikufra DadosProducao.xlsx",
+      "path": "/Users/martimnicolau/mvp geral/factory-optimizer/backend/app/data/Nikufra DadosProducao.xlsx",
+      "size_bytes": 25558,
+      "modified_at": "2025-11-25T21:32:58.159902",
+      "status": "processed",
+      "summary": {
+        "artigos": 1,
+        "skus": 0
+      },
+      "sheets": [
+        {
+          "sheet": "WIKI",
+          "type": "unknown",
+          "status": "unknown",
+          "mapped_pct": 0.0
+        },
+        {
+          "sheet": "GO Artigo 1",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 2",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 3",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 4",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 5",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 6",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        }
+      ],
+      "warnings": [
+        "Folha WIKI (Nikufra DadosProducao.xlsx) não foi reconhecida automaticamente. Utilize /api/etl/preview para mapear manualmente."
+      ],
+      "timestamp": "2025-11-25T21:42:32.972410"
+    },
+    {
+      "filename": "Nikufra Stocks.xlsx",
+      "path": "/Users/martimnicolau/mvp geral/factory-optimizer/backend/app/data/Nikufra Stocks.xlsx",
+      "size_bytes": 25701,
+      "modified_at": "2025-11-25T21:32:58.158071",
+      "status": "processed",
+      "summary": {
+        "artigos": 0,
+        "skus": 8
+      },
+      "sheets": [
+        {
+          "sheet": "Stocks_mov",
+          "type": "stocks_mov",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "Stocks_snap",
+          "type": "stocks_snap",
+          "status": "ok",
+          "mapped_pct": 100.0
+        }
+      ],
+      "warnings": [],
+      "timestamp": "2025-11-25T21:42:33.019330"
+    },
+    {
+      "filename": "Nikufra DadosProducao.xlsx",
+      "path": "/Users/martimnicolau/mvp geral/factory-optimizer/backend/app/data/Nikufra DadosProducao.xlsx",
+      "size_bytes": 25558,
+      "modified_at": "2025-11-25T21:32:58.159902",
+      "status": "processed",
+      "summary": {
+        "artigos": 1,
+        "skus": 0
+      },
+      "sheets": [
+        {
+          "sheet": "WIKI",
+          "type": "unknown",
+          "status": "unknown",
+          "mapped_pct": 0.0
+        },
+        {
+          "sheet": "GO Artigo 1",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 2",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 3",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 4",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 5",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "GO Artigo 6",
+          "type": "roteiros",
+          "status": "ok",
+          "mapped_pct": 100.0
+        }
+      ],
+      "warnings": [
+        "Folha WIKI (Nikufra DadosProducao.xlsx) não foi reconhecida automaticamente. Utilize /api/etl/preview para mapear manualmente."
+      ],
+      "timestamp": "2025-12-10T01:46:31.703675"
+    },
+    {
+      "filename": "Nikufra Stocks.xlsx",
+      "path": "/Users/martimnicolau/mvp geral/factory-optimizer/backend/app/data/Nikufra Stocks.xlsx",
+      "size_bytes": 25701,
+      "modified_at": "2025-11-25T21:32:58.158071",
+      "status": "processed",
+      "summary": {
+        "artigos": 0,
+        "skus": 8
+      },
+      "sheets": [
+        {
+          "sheet": "Stocks_mov",
+          "type": "stocks_mov",
+          "status": "ok",
+          "mapped_pct": 100.0
+        },
+        {
+          "sheet": "Stocks_snap",
+          "type": "stocks_snap",
+          "status": "ok",
+          "mapped_pct": 100.0
+        }
+      ],
+      "warnings": [],
+      "timestamp": "2025-12-10T01:46:31.853366"
+    }
+  ],
+  "sheets": [
+    {
+      "file": "Nikufra DadosProducao.xlsx",
+      "sheet": "WIKI",
+      "type": "unknown",
+      "score": 0.0,
+      "mapped_pct": 0.0,
+      "rows": 4,
+      "columns": 2,
+      "status": "unknown",
+      "mapped": [],
+      "pending": [],
+      "missing_required": [],
+      "warnings": [
+        "Folha WIKI (Nikufra DadosProducao.xlsx) não foi reconhecida automaticamente. Utilize /api/etl/preview para mapear manualmente."
+      ],
+      "columns_details": []
+    },
+    {
+      "file": "Nikufra DadosProducao.xlsx",
+      "sheet": "GO Artigo 1",
+      "type": "roteiros",
+      "score": 90.0,
+      "mapped_pct": 100.0,
+      "rows": 25,
+      "columns": 12,
+      "status": "ok",
+      "mapped": [
+        "alternativa",
+        "grupo_operacao",
+        "maquinas_possiveis",
+        "operacao",
+        "ordem_grupo",
+        "overlap_prev",
+        "pessoas",
+        "ratio_pch",
+        "setor",
+        "sku"
+      ],
+      "pending": [],
+      "missing_required": [],
+      "warnings": [],
+      "columns_details": [
+        {
+          "original": "Setor",
+          "normalized": "setor",
+          "canonical": "setor",
+          "suggested": "setor",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Ordem Grupo",
+          "normalized": "ordem_grupo",
+          "canonical": "ordem_grupo",
+          "suggested": "ordem_grupo",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Grupo Operação",
+          "normalized": "grupo_operacao",
+          "canonical": "grupo_operacao",
+          "suggested": "grupo_operacao",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Rota",
+          "normalized": "rota",
+          "canonical": "alternativa",
+          "suggested": "alternativa",
+          "confidence": 0.95,
+          "source": "synonym"
+        },
+        {
+          "original": "Operação",
+          "normalized": "operacao",
+          "canonical": "operacao",
+          "suggested": "operacao",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Máquinas Possiveis",
+          "normalized": "maquinas_possiveis",
+          "canonical": "maquinas_possiveis",
+          "suggested": "maquinas_possiveis",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Racio Peças/Hora",
+          "normalized": "racio_pecas_hora",
+          "canonical": "ratio_pch",
+          "suggested": "ratio_pch",
+          "confidence": 0.7692307692307693,
+          "source": "fuzzy"
+        },
+        {
+          "original": "% da anterior",
+          "normalized": "percent_da_anterior",
+          "canonical": "overlap_prev",
+          "suggested": "overlap_prev",
+          "confidence": 0.9142857142857143,
+          "source": "fuzzy"
+        },
+        {
+          "original": "Pessoas Necessárias",
+          "normalized": "pessoas_necessarias",
+          "canonical": "pessoas",
+          "suggested": "pessoas",
+          "confidence": 0.95,
+          "source": "synonym"
+        },
+        {
+          "original": "Tempo de Setup (minutos)",
+          "normalized": "tempo_de_setup_minutos",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": "214100901170000000",
+          "normalized": "214100901170000000",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": 3600,
+          "normalized": "3600",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": "__sheet_name__",
+          "normalized": "__sheet_name__",
+          "canonical": "sku",
+          "suggested": "sku",
+          "confidence": 1.0,
+          "source": "sheet_name"
+        }
+      ]
+    },
+    {
+      "file": "Nikufra DadosProducao.xlsx",
+      "sheet": "GO Artigo 2",
+      "type": "roteiros",
+      "score": 90.0,
+      "mapped_pct": 100.0,
+      "rows": 18,
+      "columns": 13,
+      "status": "ok",
+      "mapped": [
+        "alternativa",
+        "grupo_operacao",
+        "maquinas_possiveis",
+        "operacao",
+        "ordem_grupo",
+        "overlap_prev",
+        "pessoas",
+        "ratio_pch",
+        "setor",
+        "sku"
+      ],
+      "pending": [],
+      "missing_required": [],
+      "warnings": [],
+      "columns_details": [
+        {
+          "original": "Setor",
+          "normalized": "setor",
+          "canonical": "setor",
+          "suggested": "setor",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Ordem Grupo",
+          "normalized": "ordem_grupo",
+          "canonical": "ordem_grupo",
+          "suggested": "ordem_grupo",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Grupo Operação",
+          "normalized": "grupo_operacao",
+          "canonical": "grupo_operacao",
+          "suggested": "grupo_operacao",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Rota",
+          "normalized": "rota",
+          "canonical": "alternativa",
+          "suggested": "alternativa",
+          "confidence": 0.95,
+          "source": "synonym"
+        },
+        {
+          "original": "Operação",
+          "normalized": "operacao",
+          "canonical": "operacao",
+          "suggested": "operacao",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Máquinas Possiveis",
+          "normalized": "maquinas_possiveis",
+          "canonical": "maquinas_possiveis",
+          "suggested": "maquinas_possiveis",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Racio Peças/Hora",
+          "normalized": "racio_pecas_hora",
+          "canonical": "ratio_pch",
+          "suggested": "ratio_pch",
+          "confidence": 0.7692307692307693,
+          "source": "fuzzy"
+        },
+        {
+          "original": "% da anterior",
+          "normalized": "percent_da_anterior",
+          "canonical": "overlap_prev",
+          "suggested": "overlap_prev",
+          "confidence": 0.9142857142857143,
+          "source": "fuzzy"
+        },
+        {
+          "original": "Pessoas Necessárias",
+          "normalized": "pessoas_necessarias",
+          "canonical": "pessoas",
+          "suggested": "pessoas",
+          "confidence": 0.95,
+          "source": "synonym"
+        },
+        {
+          "original": "Tempo de Setup (minutos)",
+          "normalized": "tempo_de_setup_minutos",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": "214100901170000000",
+          "normalized": "214100901170000000",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": 4800,
+          "normalized": "4800",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": "Reparem que aqui coloquei dois artigos. A única diferenca entre os mesmos é o acabamento, que é dado na operacao polimento. O que obriga a uma paragem de setup entre eles de 20minutos. Todas asoutras operwcoes são feitas em conjunto.",
+          "normalized": "reparem_que_aqui_coloquei_dois_artigos_a_unica_diferenca_entre_os_mesmos_e_o_acabamento_que_e_dado_na_operacao_polimento_o_que_obriga_a_uma_paragem_de_setup_entre_eles_de_20minutos_todas_asoutras_operwcoes_sao_feitas_em_conjunto",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": "__sheet_name__",
+          "normalized": "__sheet_name__",
+          "canonical": "sku",
+          "suggested": "sku",
+          "confidence": 1.0,
+          "source": "sheet_name"
+        }
+      ]
+    },
+    {
+      "file": "Nikufra DadosProducao.xlsx",
+      "sheet": "GO Artigo 3",
+      "type": "roteiros",
+      "score": 90.0,
+      "mapped_pct": 100.0,
+      "rows": 14,
+      "columns": 12,
+      "status": "ok",
+      "mapped": [
+        "alternativa",
+        "grupo_operacao",
+        "maquinas_possiveis",
+        "operacao",
+        "ordem_grupo",
+        "overlap_prev",
+        "pessoas",
+        "ratio_pch",
+        "setor",
+        "sku"
+      ],
+      "pending": [],
+      "missing_required": [],
+      "warnings": [],
+      "columns_details": [
+        {
+          "original": "Setor",
+          "normalized": "setor",
+          "canonical": "setor",
+          "suggested": "setor",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Ordem Grupo",
+          "normalized": "ordem_grupo",
+          "canonical": "ordem_grupo",
+          "suggested": "ordem_grupo",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Grupo Operação",
+          "normalized": "grupo_operacao",
+          "canonical": "grupo_operacao",
+          "suggested": "grupo_operacao",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Rota",
+          "normalized": "rota",
+          "canonical": "alternativa",
+          "suggested": "alternativa",
+          "confidence": 0.95,
+          "source": "synonym"
+        },
+        {
+          "original": "Operação",
+          "normalized": "operacao",
+          "canonical": "operacao",
+          "suggested": "operacao",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Máquinas Possiveis",
+          "normalized": "maquinas_possiveis",
+          "canonical": "maquinas_possiveis",
+          "suggested": "maquinas_possiveis",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Racio Peças/Hora",
+          "normalized": "racio_pecas_hora",
+          "canonical": "ratio_pch",
+          "suggested": "ratio_pch",
+          "confidence": 0.7692307692307693,
+          "source": "fuzzy"
+        },
+        {
+          "original": "% da anterior",
+          "normalized": "percent_da_anterior",
+          "canonical": "overlap_prev",
+          "suggested": "overlap_prev",
+          "confidence": 0.9142857142857143,
+          "source": "fuzzy"
+        },
+        {
+          "original": "Pessoas Necessárias",
+          "normalized": "pessoas_necessarias",
+          "canonical": "pessoas",
+          "suggested": "pessoas",
+          "confidence": 0.95,
+          "source": "synonym"
+        },
+        {
+          "original": "Tempo de Setup (minutos)",
+          "normalized": "tempo_de_setup_minutos",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": "151100901170000000",
+          "normalized": "151100901170000000",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": 3000,
+          "normalized": "3000",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": "__sheet_name__",
+          "normalized": "__sheet_name__",
+          "canonical": "sku",
+          "suggested": "sku",
+          "confidence": 1.0,
+          "source": "sheet_name"
+        }
+      ]
+    },
+    {
+      "file": "Nikufra DadosProducao.xlsx",
+      "sheet": "GO Artigo 4",
+      "type": "roteiros",
+      "score": 90.0,
+      "mapped_pct": 100.0,
+      "rows": 33,
+      "columns": 12,
+      "status": "ok",
+      "mapped": [
+        "alternativa",
+        "grupo_operacao",
+        "maquinas_possiveis",
+        "operacao",
+        "ordem_grupo",
+        "overlap_prev",
+        "pessoas",
+        "ratio_pch",
+        "setor",
+        "sku"
+      ],
+      "pending": [],
+      "missing_required": [],
+      "warnings": [],
+      "columns_details": [
+        {
+          "original": "Setor",
+          "normalized": "setor",
+          "canonical": "setor",
+          "suggested": "setor",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Ordem Grupo",
+          "normalized": "ordem_grupo",
+          "canonical": "ordem_grupo",
+          "suggested": "ordem_grupo",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Grupo Operação",
+          "normalized": "grupo_operacao",
+          "canonical": "grupo_operacao",
+          "suggested": "grupo_operacao",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Rota",
+          "normalized": "rota",
+          "canonical": "alternativa",
+          "suggested": "alternativa",
+          "confidence": 0.95,
+          "source": "synonym"
+        },
+        {
+          "original": "Operação",
+          "normalized": "operacao",
+          "canonical": "operacao",
+          "suggested": "operacao",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Máquinas Possiveis",
+          "normalized": "maquinas_possiveis",
+          "canonical": "maquinas_possiveis",
+          "suggested": "maquinas_possiveis",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Racio Peças/Hora",
+          "normalized": "racio_pecas_hora",
+          "canonical": "ratio_pch",
+          "suggested": "ratio_pch",
+          "confidence": 0.7692307692307693,
+          "source": "fuzzy"
+        },
+        {
+          "original": "% da anterior",
+          "normalized": "percent_da_anterior",
+          "canonical": "overlap_prev",
+          "suggested": "overlap_prev",
+          "confidence": 0.9142857142857143,
+          "source": "fuzzy"
+        },
+        {
+          "original": "Pessoas Necessárias",
+          "normalized": "pessoas_necessarias",
+          "canonical": "pessoas",
+          "suggested": "pessoas",
+          "confidence": 0.95,
+          "source": "synonym"
+        },
+        {
+          "original": "Tempo de Setup (minutos)",
+          "normalized": "tempo_de_setup_minutos",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": "164100100160000000",
+          "normalized": "164100100160000000",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": 5000,
+          "normalized": "5000",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": "__sheet_name__",
+          "normalized": "__sheet_name__",
+          "canonical": "sku",
+          "suggested": "sku",
+          "confidence": 1.0,
+          "source": "sheet_name"
+        }
+      ]
+    },
+    {
+      "file": "Nikufra DadosProducao.xlsx",
+      "sheet": "GO Artigo 5",
+      "type": "roteiros",
+      "score": 90.0,
+      "mapped_pct": 100.0,
+      "rows": 28,
+      "columns": 12,
+      "status": "ok",
+      "mapped": [
+        "alternativa",
+        "grupo_operacao",
+        "maquinas_possiveis",
+        "operacao",
+        "ordem_grupo",
+        "overlap_prev",
+        "pessoas",
+        "ratio_pch",
+        "setor",
+        "sku"
+      ],
+      "pending": [],
+      "missing_required": [],
+      "warnings": [],
+      "columns_details": [
+        {
+          "original": "Setor",
+          "normalized": "setor",
+          "canonical": "setor",
+          "suggested": "setor",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Ordem Grupo",
+          "normalized": "ordem_grupo",
+          "canonical": "ordem_grupo",
+          "suggested": "ordem_grupo",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Grupo Operação",
+          "normalized": "grupo_operacao",
+          "canonical": "grupo_operacao",
+          "suggested": "grupo_operacao",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Rota",
+          "normalized": "rota",
+          "canonical": "alternativa",
+          "suggested": "alternativa",
+          "confidence": 0.95,
+          "source": "synonym"
+        },
+        {
+          "original": "Operação",
+          "normalized": "operacao",
+          "canonical": "operacao",
+          "suggested": "operacao",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Máquinas Possiveis",
+          "normalized": "maquinas_possiveis",
+          "canonical": "maquinas_possiveis",
+          "suggested": "maquinas_possiveis",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Racio Peças/Hora",
+          "normalized": "racio_pecas_hora",
+          "canonical": "ratio_pch",
+          "suggested": "ratio_pch",
+          "confidence": 0.7692307692307693,
+          "source": "fuzzy"
+        },
+        {
+          "original": "% da anterior para iniciar:",
+          "normalized": "percent_da_anterior_para_iniciar",
+          "canonical": "overlap_prev",
+          "suggested": "overlap_prev",
+          "confidence": 0.9508196721311475,
+          "source": "fuzzy"
+        },
+        {
+          "original": "Pessoas Necessárias",
+          "normalized": "pessoas_necessarias",
+          "canonical": "pessoas",
+          "suggested": "pessoas",
+          "confidence": 0.95,
+          "source": "synonym"
+        },
+        {
+          "original": "Tempo de Setup (minutos)",
+          "normalized": "tempo_de_setup_minutos",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": "082100100160000000",
+          "normalized": "082100100160000000",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": 5000,
+          "normalized": "5000",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": "__sheet_name__",
+          "normalized": "__sheet_name__",
+          "canonical": "sku",
+          "suggested": "sku",
+          "confidence": 1.0,
+          "source": "sheet_name"
+        }
+      ]
+    },
+    {
+      "file": "Nikufra DadosProducao.xlsx",
+      "sheet": "GO Artigo 6",
+      "type": "roteiros",
+      "score": 90.0,
+      "mapped_pct": 100.0,
+      "rows": 36,
+      "columns": 12,
+      "status": "ok",
+      "mapped": [
+        "alternativa",
+        "grupo_operacao",
+        "maquinas_possiveis",
+        "operacao",
+        "ordem_grupo",
+        "overlap_prev",
+        "pessoas",
+        "ratio_pch",
+        "setor",
+        "sku"
+      ],
+      "pending": [],
+      "missing_required": [],
+      "warnings": [],
+      "columns_details": [
+        {
+          "original": "Setor",
+          "normalized": "setor",
+          "canonical": "setor",
+          "suggested": "setor",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Ordem Grupo",
+          "normalized": "ordem_grupo",
+          "canonical": "ordem_grupo",
+          "suggested": "ordem_grupo",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Grupo Operação",
+          "normalized": "grupo_operacao",
+          "canonical": "grupo_operacao",
+          "suggested": "grupo_operacao",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Rota",
+          "normalized": "rota",
+          "canonical": "alternativa",
+          "suggested": "alternativa",
+          "confidence": 0.95,
+          "source": "synonym"
+        },
+        {
+          "original": "Operação",
+          "normalized": "operacao",
+          "canonical": "operacao",
+          "suggested": "operacao",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Máquinas Possiveis",
+          "normalized": "maquinas_possiveis",
+          "canonical": "maquinas_possiveis",
+          "suggested": "maquinas_possiveis",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "Racio Peças/Hora",
+          "normalized": "racio_pecas_hora",
+          "canonical": "ratio_pch",
+          "suggested": "ratio_pch",
+          "confidence": 0.7692307692307693,
+          "source": "fuzzy"
+        },
+        {
+          "original": "% da anterior para iniciar:",
+          "normalized": "percent_da_anterior_para_iniciar",
+          "canonical": "overlap_prev",
+          "suggested": "overlap_prev",
+          "confidence": 0.9508196721311475,
+          "source": "fuzzy"
+        },
+        {
+          "original": "Pessoas Necessárias",
+          "normalized": "pessoas_necessarias",
+          "canonical": "pessoas",
+          "suggested": "pessoas",
+          "confidence": 0.95,
+          "source": "synonym"
+        },
+        {
+          "original": "Tempo de Setup (minutos)",
+          "normalized": "tempo_de_setup_minutos",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": "214100101160000000",
+          "normalized": "214100101160000000",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": 5000,
+          "normalized": "5000",
+          "canonical": null,
+          "suggested": null,
+          "confidence": 0.0,
+          "source": "unknown"
+        },
+        {
+          "original": "__sheet_name__",
+          "normalized": "__sheet_name__",
+          "canonical": "sku",
+          "suggested": "sku",
+          "confidence": 1.0,
+          "source": "sheet_name"
+        }
+      ]
+    },
+    {
+      "file": "Nikufra Stocks.xlsx",
+      "sheet": "Stocks_mov",
+      "type": "stocks_mov",
+      "score": 100.0,
+      "mapped_pct": 100.0,
+      "rows": 240,
+      "columns": 9,
+      "status": "ok",
+      "mapped": [
+        "armazem",
+        "data",
+        "entradas",
+        "lote",
+        "saidas",
+        "saldo",
+        "sku",
+        "tipo_mov",
+        "valor_unit"
+      ],
+      "pending": [],
+      "missing_required": [],
+      "warnings": [],
+      "columns_details": [
+        {
+          "original": "sku",
+          "normalized": "sku",
+          "canonical": "sku",
+          "suggested": "sku",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "data",
+          "normalized": "data",
+          "canonical": "data",
+          "suggested": "data",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "tipo_mov",
+          "normalized": "tipo_mov",
+          "canonical": "tipo_mov",
+          "suggested": "tipo_mov",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "entradas",
+          "normalized": "entradas",
+          "canonical": "entradas",
+          "suggested": "entradas",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "saidas",
+          "normalized": "saidas",
+          "canonical": "saidas",
+          "suggested": "saidas",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "saldo",
+          "normalized": "saldo",
+          "canonical": "saldo",
+          "suggested": "saldo",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "armazem",
+          "normalized": "armazem",
+          "canonical": "armazem",
+          "suggested": "armazem",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "valor_unit",
+          "normalized": "valor_unit",
+          "canonical": "valor_unit",
+          "suggested": "valor_unit",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "lote",
+          "normalized": "lote",
+          "canonical": "lote",
+          "suggested": "lote",
+          "confidence": 0.99,
+          "source": "exact"
+        }
+      ]
+    },
+    {
+      "file": "Nikufra Stocks.xlsx",
+      "sheet": "Stocks_snap",
+      "type": "stocks_snap",
+      "score": 100.0,
+      "mapped_pct": 100.0,
+      "rows": 300,
+      "columns": 4,
+      "status": "ok",
+      "mapped": [
+        "cobertura_dias",
+        "data",
+        "sku",
+        "stock_atual"
+      ],
+      "pending": [],
+      "missing_required": [],
+      "warnings": [],
+      "columns_details": [
+        {
+          "original": "sku",
+          "normalized": "sku",
+          "canonical": "sku",
+          "suggested": "sku",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "data",
+          "normalized": "data",
+          "canonical": "data",
+          "suggested": "data",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "stock_atual",
+          "normalized": "stock_atual",
+          "canonical": "stock_atual",
+          "suggested": "stock_atual",
+          "confidence": 0.99,
+          "source": "exact"
+        },
+        {
+          "original": "cobertura_dias",
+          "normalized": "cobertura_dias",
+          "canonical": "cobertura_dias",
+          "suggested": "cobertura_dias",
+          "confidence": 0.99,
+          "source": "exact"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Folha WIKI (Nikufra DadosProducao.xlsx) não foi reconhecida automaticamente. Utilize /api/etl/preview para mapear manualmente."
+  ],
+  "ready_flags": {
+    "planning_ready": true,
+    "inventory_ready": true
+  },
+  "has_data": true,
+  "mappings_version": 1,
+  "summary": {
+    "artigos": 1,
+    "skus": 8
+  },
+  "inventory": {
+    "skus_total": 8
+  },
+  "startup_summary": {
+    "artigos": 10,
+    "skus": 8
+  },
+  "latest_batch_id": "20251125213258",
+  "batch_id": "20251125213258"
+}

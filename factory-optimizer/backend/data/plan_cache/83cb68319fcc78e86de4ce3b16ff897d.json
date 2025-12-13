@@ -1,0 +1,1754 @@
+{
+  "batch_id": "20251125213258",
+  "horizon_hours": 168,
+  "created_at": "2025-11-25T21:36:56.187153",
+  "baseline": {
+    "makespan_h": 40.11433876611111,
+    "total_setup_h": 40.0,
+    "kpis": {
+      "makespan_h": 40.11433876611111,
+      "total_setup_h": 40.0,
+      "num_operations": 39,
+      "num_machines_used": 8,
+      "num_orders_processed": 6,
+      "utilizacao_300": 0.2313031129011164,
+      "ops_300": 4,
+      "utilizacao_191": 0.20625566264597886,
+      "ops_191": 6,
+      "utilizacao_700": 0.13472518632842503,
+      "ops_700": 6,
+      "utilizacao_324": 0.23814280554814937,
+      "ops_324": 5,
+      "utilizacao_281": 0.09553050043991451,
+      "ops_281": 2,
+      "utilizacao_16": 0.1616806978554378,
+      "ops_16": 6,
+      "utilizacao_190": 0.3162928563239238,
+      "ops_190": 8,
+      "utilizacao_215": 0.12699809098556722,
+      "ops_215": 2
+    },
+    "operations": [
+      {
+        "order_id": "ORD-GO Artigo 1",
+        "artigo": "GO Artigo 1",
+        "op_id": "32",
+        "rota": "A",
+        "maquina_id": "16",
+        "start_time": "2025-11-25T21:36:56.187153",
+        "end_time": "2025-11-25T23:19:47.615724",
+        "quantidade": 1000,
+        "duracao_h": 0.7142857142857143,
+        "family": "Corte Peça"
+      },
+      {
+        "order_id": "ORD-GO Artigo 1",
+        "artigo": "GO Artigo 1",
+        "op_id": "132",
+        "rota": "A",
+        "maquina_id": "300",
+        "start_time": "2025-11-25T23:19:47.615724",
+        "end_time": "2025-11-26T02:29:47.615724",
+        "quantidade": 1000,
+        "duracao_h": 1.6666666666666667,
+        "family": "Laminar e Aparar Chapa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 1",
+        "artigo": "GO Artigo 1",
+        "op_id": "48",
+        "rota": "A",
+        "maquina_id": "191",
+        "start_time": "2025-11-26T02:29:47.615724",
+        "end_time": "2025-11-26T04:42:39.044295",
+        "quantidade": 1000,
+        "duracao_h": 0.7142857142857143,
+        "family": "Estampagem"
+      },
+      {
+        "order_id": "ORD-GO Artigo 1",
+        "artigo": "GO Artigo 1",
+        "op_id": "134",
+        "rota": "A",
+        "maquina_id": "324",
+        "start_time": "2025-11-26T04:42:39.044295",
+        "end_time": "2025-11-26T07:10:53.161942",
+        "quantidade": 1000,
+        "duracao_h": 1.4705882352941178,
+        "family": "Brunir à Lixa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 1",
+        "artigo": "GO Artigo 1",
+        "op_id": "14",
+        "rota": "A",
+        "maquina_id": "700",
+        "start_time": "2025-11-26T07:10:53.161942",
+        "end_time": "2025-11-26T08:31:10.809001",
+        "quantidade": 1000,
+        "duracao_h": 0.5882352941176471,
+        "family": "Brunir à Massa Branca"
+      },
+      {
+        "order_id": "ORD-GO Artigo 1",
+        "artigo": "GO Artigo 1",
+        "op_id": "74",
+        "rota": "A",
+        "maquina_id": "190",
+        "start_time": "2025-11-26T08:31:10.809001",
+        "end_time": "2025-11-26T10:25:43.536274",
+        "quantidade": 1000,
+        "duracao_h": 0.9090909090909091,
+        "family": "Polimento"
+      },
+      {
+        "order_id": "ORD-GO Artigo 2",
+        "artigo": "GO Artigo 2",
+        "op_id": "32",
+        "rota": "A",
+        "maquina_id": "16",
+        "start_time": "2025-11-25T23:19:47.615724",
+        "end_time": "2025-11-26T00:20:39.044295",
+        "quantidade": 1000,
+        "duracao_h": 0.7142857142857143,
+        "family": "Corte Peça"
+      },
+      {
+        "order_id": "ORD-GO Artigo 2",
+        "artigo": "GO Artigo 2",
+        "op_id": "48",
+        "rota": "A",
+        "maquina_id": "191",
+        "start_time": "2025-11-26T04:42:39.044295",
+        "end_time": "2025-11-26T05:52:30.472866",
+        "quantidade": 1000,
+        "duracao_h": 0.7142857142857143,
+        "family": "Estampagem"
+      },
+      {
+        "order_id": "ORD-GO Artigo 2",
+        "artigo": "GO Artigo 2",
+        "op_id": "134",
+        "rota": "A",
+        "maquina_id": "324",
+        "start_time": "2025-11-26T07:10:53.161942",
+        "end_time": "2025-11-26T08:57:07.279589",
+        "quantidade": 1000,
+        "duracao_h": 1.4705882352941178,
+        "family": "Brunir à Lixa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 2",
+        "artigo": "GO Artigo 2",
+        "op_id": "14",
+        "rota": "A",
+        "maquina_id": "700",
+        "start_time": "2025-11-26T08:57:07.279589",
+        "end_time": "2025-11-26T09:45:54.926648",
+        "quantidade": 1000,
+        "duracao_h": 0.5882352941176471,
+        "family": "Brunir à Massa Branca"
+      },
+      {
+        "order_id": "ORD-GO Artigo 2",
+        "artigo": "GO Artigo 2",
+        "op_id": "74",
+        "rota": "A",
+        "maquina_id": "190",
+        "start_time": "2025-11-26T10:25:43.536274",
+        "end_time": "2025-11-26T11:38:16.263547",
+        "quantidade": 1000,
+        "duracao_h": 0.9090909090909091,
+        "family": "Polimento"
+      },
+      {
+        "order_id": "ORD-GO Artigo 3",
+        "artigo": "GO Artigo 3",
+        "op_id": "32",
+        "rota": "A",
+        "maquina_id": "16",
+        "start_time": "2025-11-26T00:20:39.044295",
+        "end_time": "2025-11-26T01:03:30.472866",
+        "quantidade": 1000,
+        "duracao_h": 0.7142857142857143,
+        "family": "Corte Peça"
+      },
+      {
+        "order_id": "ORD-GO Artigo 3",
+        "artigo": "GO Artigo 3",
+        "op_id": "48",
+        "rota": "A",
+        "maquina_id": "191",
+        "start_time": "2025-11-26T05:52:30.472866",
+        "end_time": "2025-11-26T07:02:21.901437",
+        "quantidade": 1000,
+        "duracao_h": 0.7142857142857143,
+        "family": "Estampagem"
+      },
+      {
+        "order_id": "ORD-GO Artigo 3",
+        "artigo": "GO Artigo 3",
+        "op_id": "14",
+        "rota": "A",
+        "maquina_id": "700",
+        "start_time": "2025-11-26T09:45:54.926648",
+        "end_time": "2025-11-26T10:34:42.573707",
+        "quantidade": 1000,
+        "duracao_h": 0.5882352941176471,
+        "family": "Brunir à Massa Branca"
+      },
+      {
+        "order_id": "ORD-GO Artigo 3",
+        "artigo": "GO Artigo 3",
+        "op_id": "74",
+        "rota": "A",
+        "maquina_id": "190",
+        "start_time": "2025-11-26T11:38:16.263547",
+        "end_time": "2025-11-26T12:50:48.990820",
+        "quantidade": 1000,
+        "duracao_h": 0.9090909090909091,
+        "family": "Polimento"
+      },
+      {
+        "order_id": "ORD-GO Artigo 4",
+        "artigo": "GO Artigo 4",
+        "op_id": "32",
+        "rota": "A",
+        "maquina_id": "16",
+        "start_time": "2025-11-26T01:03:30.472866",
+        "end_time": "2025-11-26T02:04:21.901437",
+        "quantidade": 1000,
+        "duracao_h": 0.7142857142857143,
+        "family": "Corte Peça"
+      },
+      {
+        "order_id": "ORD-GO Artigo 4",
+        "artigo": "GO Artigo 4",
+        "op_id": "132",
+        "rota": "A",
+        "maquina_id": "300",
+        "start_time": "2025-11-26T02:29:47.615724",
+        "end_time": "2025-11-26T04:36:47.615724",
+        "quantidade": 1000,
+        "duracao_h": 1.6666666666666667,
+        "family": "Laminar e Aparar Chapa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 4",
+        "artigo": "GO Artigo 4",
+        "op_id": "124",
+        "rota": "A",
+        "maquina_id": "190",
+        "start_time": "2025-11-26T12:50:48.990820",
+        "end_time": "2025-11-26T14:30:48.990820",
+        "quantidade": 1000,
+        "duracao_h": 0.6666666666666666,
+        "family": "Polimento Intermédio"
+      },
+      {
+        "order_id": "ORD-GO Artigo 4",
+        "artigo": "GO Artigo 4",
+        "op_id": "79",
+        "rota": "A",
+        "maquina_id": "281",
+        "start_time": "2025-11-26T14:30:48.990820",
+        "end_time": "2025-11-26T16:41:31.847963",
+        "quantidade": 1000,
+        "duracao_h": 1.4285714285714286,
+        "family": "Ramiar"
+      },
+      {
+        "order_id": "ORD-GO Artigo 4",
+        "artigo": "GO Artigo 4",
+        "op_id": "48",
+        "rota": "A",
+        "maquina_id": "191",
+        "start_time": "2025-11-26T16:41:31.847963",
+        "end_time": "2025-11-26T17:58:31.847963",
+        "quantidade": 1000,
+        "duracao_h": 0.8333333333333334,
+        "family": "Estampagem"
+      },
+      {
+        "order_id": "ORD-GO Artigo 4",
+        "artigo": "GO Artigo 4",
+        "op_id": "134",
+        "rota": "A",
+        "maquina_id": "324",
+        "start_time": "2025-11-26T17:58:31.847963",
+        "end_time": "2025-11-26T19:44:45.965610",
+        "quantidade": 1000,
+        "duracao_h": 1.4705882352941178,
+        "family": "Brunir à Lixa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 4",
+        "artigo": "GO Artigo 4",
+        "op_id": "14",
+        "rota": "A",
+        "maquina_id": "700",
+        "start_time": "2025-11-26T19:44:45.965610",
+        "end_time": "2025-11-26T20:33:33.612669",
+        "quantidade": 1000,
+        "duracao_h": 0.5882352941176471,
+        "family": "Brunir à Massa Branca"
+      },
+      {
+        "order_id": "ORD-GO Artigo 4",
+        "artigo": "GO Artigo 4",
+        "op_id": "74",
+        "rota": "A",
+        "maquina_id": "190",
+        "start_time": "2025-11-26T20:33:33.612669",
+        "end_time": "2025-11-26T22:28:06.339942",
+        "quantidade": 1000,
+        "duracao_h": 0.9090909090909091,
+        "family": "Polimento"
+      },
+      {
+        "order_id": "ORD-GO Artigo 5",
+        "artigo": "GO Artigo 5",
+        "op_id": "32",
+        "rota": "A",
+        "maquina_id": "16",
+        "start_time": "2025-11-26T02:04:21.901437",
+        "end_time": "2025-11-26T03:05:13.330008",
+        "quantidade": 1000,
+        "duracao_h": 0.7142857142857143,
+        "family": "Corte Peça"
+      },
+      {
+        "order_id": "ORD-GO Artigo 5",
+        "artigo": "GO Artigo 5",
+        "op_id": "132",
+        "rota": "A",
+        "maquina_id": "300",
+        "start_time": "2025-11-26T04:36:47.615724",
+        "end_time": "2025-11-26T06:43:47.615724",
+        "quantidade": 1000,
+        "duracao_h": 1.6666666666666667,
+        "family": "Laminar e Aparar Chapa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 5",
+        "artigo": "GO Artigo 5",
+        "op_id": "48",
+        "rota": "A",
+        "maquina_id": "191",
+        "start_time": "2025-11-26T17:58:31.847963",
+        "end_time": "2025-11-26T19:08:23.276534",
+        "quantidade": 1000,
+        "duracao_h": 0.7142857142857143,
+        "family": "Estampagem"
+      },
+      {
+        "order_id": "ORD-GO Artigo 5",
+        "artigo": "GO Artigo 5",
+        "op_id": "134",
+        "rota": "A",
+        "maquina_id": "324",
+        "start_time": "2025-11-26T19:44:45.965610",
+        "end_time": "2025-11-26T21:31:00.083257",
+        "quantidade": 1000,
+        "duracao_h": 1.4705882352941178,
+        "family": "Brunir à Lixa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 5",
+        "artigo": "GO Artigo 5",
+        "op_id": "61",
+        "rota": "A",
+        "maquina_id": "215",
+        "start_time": "2025-11-26T21:31:00.083257",
+        "end_time": "2025-11-27T00:14:20.083257",
+        "quantidade": 1000,
+        "duracao_h": 2.2222222222222223,
+        "family": "Lixar Dentes"
+      },
+      {
+        "order_id": "ORD-GO Artigo 5",
+        "artigo": "GO Artigo 5",
+        "op_id": "14",
+        "rota": "A",
+        "maquina_id": "700",
+        "start_time": "2025-11-27T00:14:20.083257",
+        "end_time": "2025-11-27T01:03:07.730316",
+        "quantidade": 1000,
+        "duracao_h": 0.5882352941176471,
+        "family": "Brunir à Massa Branca"
+      },
+      {
+        "order_id": "ORD-GO Artigo 5",
+        "artigo": "GO Artigo 5",
+        "op_id": "74",
+        "rota": "A",
+        "maquina_id": "190",
+        "start_time": "2025-11-27T01:03:07.730316",
+        "end_time": "2025-11-27T02:15:40.457589",
+        "quantidade": 1000,
+        "duracao_h": 0.9090909090909091,
+        "family": "Polimento"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "32",
+        "rota": "A",
+        "maquina_id": "16",
+        "start_time": "2025-11-26T03:05:13.330008",
+        "end_time": "2025-11-26T04:06:04.758579",
+        "quantidade": 1000,
+        "duracao_h": 0.7142857142857143,
+        "family": "Corte Peça"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "132",
+        "rota": "A",
+        "maquina_id": "300",
+        "start_time": "2025-11-26T06:43:47.615724",
+        "end_time": "2025-11-26T08:36:30.472867",
+        "quantidade": 1000,
+        "duracao_h": 1.4285714285714286,
+        "family": "Laminar e Aparar Chapa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "124",
+        "rota": "A",
+        "maquina_id": "190",
+        "start_time": "2025-11-27T02:15:40.457589",
+        "end_time": "2025-11-27T03:55:40.457589",
+        "quantidade": 1000,
+        "duracao_h": 0.6666666666666666,
+        "family": "Polimento Intermédio"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "79",
+        "rota": "A",
+        "maquina_id": "281",
+        "start_time": "2025-11-27T03:55:40.457589",
+        "end_time": "2025-11-27T05:34:53.314732",
+        "quantidade": 1000,
+        "duracao_h": 1.4285714285714286,
+        "family": "Ramiar"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "48",
+        "rota": "A",
+        "maquina_id": "191",
+        "start_time": "2025-11-27T05:34:53.314732",
+        "end_time": "2025-11-27T06:51:53.314732",
+        "quantidade": 1000,
+        "duracao_h": 0.8333333333333334,
+        "family": "Estampagem"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "61",
+        "rota": "A",
+        "maquina_id": "215",
+        "start_time": "2025-11-27T06:51:53.314732",
+        "end_time": "2025-11-27T09:14:13.314732",
+        "quantidade": 1000,
+        "duracao_h": 2.2222222222222223,
+        "family": "Lixar Dentes"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "134",
+        "rota": "A",
+        "maquina_id": "324",
+        "start_time": "2025-11-27T09:14:13.314732",
+        "end_time": "2025-11-27T11:00:27.432379",
+        "quantidade": 1000,
+        "duracao_h": 1.4705882352941178,
+        "family": "Brunir à Lixa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "14",
+        "rota": "A",
+        "maquina_id": "700",
+        "start_time": "2025-11-27T11:00:27.432379",
+        "end_time": "2025-11-27T11:49:15.079438",
+        "quantidade": 1000,
+        "duracao_h": 0.5882352941176471,
+        "family": "Brunir à Massa Branca"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "74",
+        "rota": "A",
+        "maquina_id": "190",
+        "start_time": "2025-11-27T11:49:15.079438",
+        "end_time": "2025-11-27T13:43:47.806711",
+        "quantidade": 1000,
+        "duracao_h": 0.9090909090909091,
+        "family": "Polimento"
+      }
+    ],
+    "orders_summary": {
+      "total_orders": 6,
+      "orders": [
+        "ORD-GO Artigo 1",
+        "ORD-GO Artigo 2",
+        "ORD-GO Artigo 3",
+        "ORD-GO Artigo 4",
+        "ORD-GO Artigo 5",
+        "ORD-GO Artigo 6"
+      ]
+    },
+    "gantt_by_machine": {
+      "16": [
+        {
+          "order_id": "ORD-GO Artigo 1",
+          "op_id": "32",
+          "start_time": "2025-11-25T21:36:56.187153",
+          "end_time": "2025-11-25T23:19:47.615724",
+          "quantidade": 1000,
+          "duracao_h": 0.7142857142857143
+        },
+        {
+          "order_id": "ORD-GO Artigo 2",
+          "op_id": "32",
+          "start_time": "2025-11-25T23:19:47.615724",
+          "end_time": "2025-11-26T00:20:39.044295",
+          "quantidade": 1000,
+          "duracao_h": 0.7142857142857143
+        },
+        {
+          "order_id": "ORD-GO Artigo 3",
+          "op_id": "32",
+          "start_time": "2025-11-26T00:20:39.044295",
+          "end_time": "2025-11-26T01:03:30.472866",
+          "quantidade": 1000,
+          "duracao_h": 0.7142857142857143
+        },
+        {
+          "order_id": "ORD-GO Artigo 4",
+          "op_id": "32",
+          "start_time": "2025-11-26T01:03:30.472866",
+          "end_time": "2025-11-26T02:04:21.901437",
+          "quantidade": 1000,
+          "duracao_h": 0.7142857142857143
+        },
+        {
+          "order_id": "ORD-GO Artigo 5",
+          "op_id": "32",
+          "start_time": "2025-11-26T02:04:21.901437",
+          "end_time": "2025-11-26T03:05:13.330008",
+          "quantidade": 1000,
+          "duracao_h": 0.7142857142857143
+        },
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "32",
+          "start_time": "2025-11-26T03:05:13.330008",
+          "end_time": "2025-11-26T04:06:04.758579",
+          "quantidade": 1000,
+          "duracao_h": 0.7142857142857143
+        }
+      ],
+      "300": [
+        {
+          "order_id": "ORD-GO Artigo 1",
+          "op_id": "132",
+          "start_time": "2025-11-25T23:19:47.615724",
+          "end_time": "2025-11-26T02:29:47.615724",
+          "quantidade": 1000,
+          "duracao_h": 1.6666666666666667
+        },
+        {
+          "order_id": "ORD-GO Artigo 4",
+          "op_id": "132",
+          "start_time": "2025-11-26T02:29:47.615724",
+          "end_time": "2025-11-26T04:36:47.615724",
+          "quantidade": 1000,
+          "duracao_h": 1.6666666666666667
+        },
+        {
+          "order_id": "ORD-GO Artigo 5",
+          "op_id": "132",
+          "start_time": "2025-11-26T04:36:47.615724",
+          "end_time": "2025-11-26T06:43:47.615724",
+          "quantidade": 1000,
+          "duracao_h": 1.6666666666666667
+        },
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "132",
+          "start_time": "2025-11-26T06:43:47.615724",
+          "end_time": "2025-11-26T08:36:30.472867",
+          "quantidade": 1000,
+          "duracao_h": 1.4285714285714286
+        }
+      ],
+      "191": [
+        {
+          "order_id": "ORD-GO Artigo 1",
+          "op_id": "48",
+          "start_time": "2025-11-26T02:29:47.615724",
+          "end_time": "2025-11-26T04:42:39.044295",
+          "quantidade": 1000,
+          "duracao_h": 0.7142857142857143
+        },
+        {
+          "order_id": "ORD-GO Artigo 2",
+          "op_id": "48",
+          "start_time": "2025-11-26T04:42:39.044295",
+          "end_time": "2025-11-26T05:52:30.472866",
+          "quantidade": 1000,
+          "duracao_h": 0.7142857142857143
+        },
+        {
+          "order_id": "ORD-GO Artigo 3",
+          "op_id": "48",
+          "start_time": "2025-11-26T05:52:30.472866",
+          "end_time": "2025-11-26T07:02:21.901437",
+          "quantidade": 1000,
+          "duracao_h": 0.7142857142857143
+        },
+        {
+          "order_id": "ORD-GO Artigo 4",
+          "op_id": "48",
+          "start_time": "2025-11-26T16:41:31.847963",
+          "end_time": "2025-11-26T17:58:31.847963",
+          "quantidade": 1000,
+          "duracao_h": 0.8333333333333334
+        },
+        {
+          "order_id": "ORD-GO Artigo 5",
+          "op_id": "48",
+          "start_time": "2025-11-26T17:58:31.847963",
+          "end_time": "2025-11-26T19:08:23.276534",
+          "quantidade": 1000,
+          "duracao_h": 0.7142857142857143
+        },
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "48",
+          "start_time": "2025-11-27T05:34:53.314732",
+          "end_time": "2025-11-27T06:51:53.314732",
+          "quantidade": 1000,
+          "duracao_h": 0.8333333333333334
+        }
+      ],
+      "324": [
+        {
+          "order_id": "ORD-GO Artigo 1",
+          "op_id": "134",
+          "start_time": "2025-11-26T04:42:39.044295",
+          "end_time": "2025-11-26T07:10:53.161942",
+          "quantidade": 1000,
+          "duracao_h": 1.4705882352941178
+        },
+        {
+          "order_id": "ORD-GO Artigo 2",
+          "op_id": "134",
+          "start_time": "2025-11-26T07:10:53.161942",
+          "end_time": "2025-11-26T08:57:07.279589",
+          "quantidade": 1000,
+          "duracao_h": 1.4705882352941178
+        },
+        {
+          "order_id": "ORD-GO Artigo 4",
+          "op_id": "134",
+          "start_time": "2025-11-26T17:58:31.847963",
+          "end_time": "2025-11-26T19:44:45.965610",
+          "quantidade": 1000,
+          "duracao_h": 1.4705882352941178
+        },
+        {
+          "order_id": "ORD-GO Artigo 5",
+          "op_id": "134",
+          "start_time": "2025-11-26T19:44:45.965610",
+          "end_time": "2025-11-26T21:31:00.083257",
+          "quantidade": 1000,
+          "duracao_h": 1.4705882352941178
+        },
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "134",
+          "start_time": "2025-11-27T09:14:13.314732",
+          "end_time": "2025-11-27T11:00:27.432379",
+          "quantidade": 1000,
+          "duracao_h": 1.4705882352941178
+        }
+      ],
+      "700": [
+        {
+          "order_id": "ORD-GO Artigo 1",
+          "op_id": "14",
+          "start_time": "2025-11-26T07:10:53.161942",
+          "end_time": "2025-11-26T08:31:10.809001",
+          "quantidade": 1000,
+          "duracao_h": 0.5882352941176471
+        },
+        {
+          "order_id": "ORD-GO Artigo 2",
+          "op_id": "14",
+          "start_time": "2025-11-26T08:57:07.279589",
+          "end_time": "2025-11-26T09:45:54.926648",
+          "quantidade": 1000,
+          "duracao_h": 0.5882352941176471
+        },
+        {
+          "order_id": "ORD-GO Artigo 3",
+          "op_id": "14",
+          "start_time": "2025-11-26T09:45:54.926648",
+          "end_time": "2025-11-26T10:34:42.573707",
+          "quantidade": 1000,
+          "duracao_h": 0.5882352941176471
+        },
+        {
+          "order_id": "ORD-GO Artigo 4",
+          "op_id": "14",
+          "start_time": "2025-11-26T19:44:45.965610",
+          "end_time": "2025-11-26T20:33:33.612669",
+          "quantidade": 1000,
+          "duracao_h": 0.5882352941176471
+        },
+        {
+          "order_id": "ORD-GO Artigo 5",
+          "op_id": "14",
+          "start_time": "2025-11-27T00:14:20.083257",
+          "end_time": "2025-11-27T01:03:07.730316",
+          "quantidade": 1000,
+          "duracao_h": 0.5882352941176471
+        },
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "14",
+          "start_time": "2025-11-27T11:00:27.432379",
+          "end_time": "2025-11-27T11:49:15.079438",
+          "quantidade": 1000,
+          "duracao_h": 0.5882352941176471
+        }
+      ],
+      "190": [
+        {
+          "order_id": "ORD-GO Artigo 1",
+          "op_id": "74",
+          "start_time": "2025-11-26T08:31:10.809001",
+          "end_time": "2025-11-26T10:25:43.536274",
+          "quantidade": 1000,
+          "duracao_h": 0.9090909090909091
+        },
+        {
+          "order_id": "ORD-GO Artigo 2",
+          "op_id": "74",
+          "start_time": "2025-11-26T10:25:43.536274",
+          "end_time": "2025-11-26T11:38:16.263547",
+          "quantidade": 1000,
+          "duracao_h": 0.9090909090909091
+        },
+        {
+          "order_id": "ORD-GO Artigo 3",
+          "op_id": "74",
+          "start_time": "2025-11-26T11:38:16.263547",
+          "end_time": "2025-11-26T12:50:48.990820",
+          "quantidade": 1000,
+          "duracao_h": 0.9090909090909091
+        },
+        {
+          "order_id": "ORD-GO Artigo 4",
+          "op_id": "124",
+          "start_time": "2025-11-26T12:50:48.990820",
+          "end_time": "2025-11-26T14:30:48.990820",
+          "quantidade": 1000,
+          "duracao_h": 0.6666666666666666
+        },
+        {
+          "order_id": "ORD-GO Artigo 4",
+          "op_id": "74",
+          "start_time": "2025-11-26T20:33:33.612669",
+          "end_time": "2025-11-26T22:28:06.339942",
+          "quantidade": 1000,
+          "duracao_h": 0.9090909090909091
+        },
+        {
+          "order_id": "ORD-GO Artigo 5",
+          "op_id": "74",
+          "start_time": "2025-11-27T01:03:07.730316",
+          "end_time": "2025-11-27T02:15:40.457589",
+          "quantidade": 1000,
+          "duracao_h": 0.9090909090909091
+        },
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "124",
+          "start_time": "2025-11-27T02:15:40.457589",
+          "end_time": "2025-11-27T03:55:40.457589",
+          "quantidade": 1000,
+          "duracao_h": 0.6666666666666666
+        },
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "74",
+          "start_time": "2025-11-27T11:49:15.079438",
+          "end_time": "2025-11-27T13:43:47.806711",
+          "quantidade": 1000,
+          "duracao_h": 0.9090909090909091
+        }
+      ],
+      "281": [
+        {
+          "order_id": "ORD-GO Artigo 4",
+          "op_id": "79",
+          "start_time": "2025-11-26T14:30:48.990820",
+          "end_time": "2025-11-26T16:41:31.847963",
+          "quantidade": 1000,
+          "duracao_h": 1.4285714285714286
+        },
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "79",
+          "start_time": "2025-11-27T03:55:40.457589",
+          "end_time": "2025-11-27T05:34:53.314732",
+          "quantidade": 1000,
+          "duracao_h": 1.4285714285714286
+        }
+      ],
+      "215": [
+        {
+          "order_id": "ORD-GO Artigo 5",
+          "op_id": "61",
+          "start_time": "2025-11-26T21:31:00.083257",
+          "end_time": "2025-11-27T00:14:20.083257",
+          "quantidade": 1000,
+          "duracao_h": 2.2222222222222223
+        },
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "61",
+          "start_time": "2025-11-27T06:51:53.314732",
+          "end_time": "2025-11-27T09:14:13.314732",
+          "quantidade": 1000,
+          "duracao_h": 2.2222222222222223
+        }
+      ],
+      "133": [],
+      "134": [],
+      "20": [],
+      "205": [],
+      "208": [],
+      "217": [],
+      "220": [],
+      "241": [],
+      "244": [],
+      "247": [],
+      "248": [],
+      "267": [],
+      "27": [],
+      "273": [],
+      "288": [],
+      "29": [],
+      "303": [],
+      "304": [],
+      "329": [],
+      "709": []
+    },
+    "all_machines": [
+      "133",
+      "134",
+      "16",
+      "190",
+      "191",
+      "20",
+      "205",
+      "208",
+      "215",
+      "217",
+      "220",
+      "241",
+      "244",
+      "247",
+      "248",
+      "267",
+      "27",
+      "273",
+      "281",
+      "288",
+      "29",
+      "300",
+      "303",
+      "304",
+      "324",
+      "329",
+      "700",
+      "709"
+    ]
+  },
+  "optimized": {
+    "makespan_h": 20.671146337222222,
+    "total_setup_h": 26.999999999999996,
+    "kpis": {
+      "makespan_h": 20.671146337222222,
+      "total_setup_h": 26.999999999999996,
+      "num_operations": 33,
+      "num_machines_used": 26,
+      "num_orders_processed": 6,
+      "utilizacao_244": 0.0852349808356843,
+      "ops_244": 1,
+      "utilizacao_300": 0.15319260069116233,
+      "ops_300": 1,
+      "utilizacao_217": 0.1634438348727514,
+      "ops_217": 2,
+      "utilizacao_288": 0.15608786754633022,
+      "ops_288": 2,
+      "utilizacao_303": 0.11951868536895638,
+      "ops_303": 1,
+      "utilizacao_241": 0.0900342477746305,
+      "ops_241": 1,
+      "utilizacao_133": 0.08062768457429596,
+      "ops_133": 1,
+      "utilizacao_267": 0.08869045303172556,
+      "ops_267": 1,
+      "utilizacao_247": 0.13706706377630315,
+      "ops_247": 1,
+      "utilizacao_191": 0.10711963807727894,
+      "ops_191": 1,
+      "utilizacao_248": 0.19753782720702515,
+      "ops_248": 1,
+      "utilizacao_700": 0.10408085517546617,
+      "ops_700": 2,
+      "utilizacao_324": 0.20517374321670845,
+      "ops_324": 2,
+      "utilizacao_281": 0.15467077490835776,
+      "ops_281": 2,
+      "utilizacao_208": 0.18538608331761336,
+      "ops_208": 2,
+      "utilizacao_273": 0.08869045303172556,
+      "ops_273": 1,
+      "utilizacao_27": 0.32251073829718385,
+      "ops_27": 1,
+      "utilizacao_709": 0.0647392879081847,
+      "ops_709": 1,
+      "utilizacao_134": 0.12900429531887356,
+      "ops_134": 1,
+      "utilizacao_20": 0.12094152686144395,
+      "ops_20": 1,
+      "utilizacao_16": 0.08293133270499015,
+      "ops_16": 1,
+      "utilizacao_190": 0.1729830323593986,
+      "ops_190": 2,
+      "utilizacao_220": 0.08062768457429596,
+      "ops_220": 1,
+      "utilizacao_215": 0.1316918848046834,
+      "ops_215": 1,
+      "utilizacao_205": 0.11691014263272917,
+      "ops_205": 1,
+      "utilizacao_304": 0.11691014263272917,
+      "ops_304": 1
+    },
+    "operations": [
+      {
+        "order_id": "ORD-GO Artigo 1",
+        "artigo": "GO Artigo 1",
+        "op_id": "30",
+        "rota": "B",
+        "maquina_id": "133",
+        "start_time": "2025-11-25T21:36:56.187153",
+        "end_time": "2025-11-25T23:16:56.187153",
+        "quantidade": 1000,
+        "duracao_h": 1.6666666666666667,
+        "family": "Corte Peça"
+      },
+      {
+        "order_id": "ORD-GO Artigo 1",
+        "artigo": "GO Artigo 1",
+        "op_id": "33",
+        "rota": "B",
+        "maquina_id": "244",
+        "start_time": "2025-11-25T23:01:56.187153",
+        "end_time": "2025-11-26T00:47:39.044296",
+        "quantidade": 1000,
+        "duracao_h": 1.4285714285714286,
+        "family": "Corte Peça"
+      },
+      {
+        "order_id": "ORD-GO Artigo 1",
+        "artigo": "GO Artigo 1",
+        "op_id": "6",
+        "rota": "B",
+        "maquina_id": "273",
+        "start_time": "2025-11-26T00:47:39.044296",
+        "end_time": "2025-11-26T02:37:39.044296",
+        "quantidade": 1000,
+        "duracao_h": 1.3333333333333333,
+        "family": "Laminar e Aparar Chapa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 1",
+        "artigo": "GO Artigo 1",
+        "op_id": "55",
+        "rota": "B",
+        "maquina_id": "205",
+        "start_time": "2025-11-26T02:21:09.044296",
+        "end_time": "2025-11-26T04:46:09.044296",
+        "quantidade": 1000,
+        "duracao_h": 1.6666666666666667,
+        "family": "Laminar e Aparar Chapa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 1",
+        "artigo": "GO Artigo 1",
+        "op_id": "44",
+        "rota": "B",
+        "maquina_id": "281",
+        "start_time": "2025-11-26T04:46:09.044296",
+        "end_time": "2025-11-26T06:37:49.044296",
+        "quantidade": 1000,
+        "duracao_h": 1.1111111111111112,
+        "family": "Estampagem"
+      },
+      {
+        "order_id": "ORD-GO Artigo 1",
+        "artigo": "GO Artigo 1",
+        "op_id": "22",
+        "rota": "B",
+        "maquina_id": "247",
+        "start_time": "2025-11-26T06:37:49.044296",
+        "end_time": "2025-11-26T09:27:49.044296",
+        "quantidade": 1000,
+        "duracao_h": 2.0833333333333335,
+        "family": "Brunir à Lixa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 1",
+        "artigo": "GO Artigo 1",
+        "op_id": "96",
+        "rota": "B",
+        "maquina_id": "248",
+        "start_time": "2025-11-26T08:53:49.044296",
+        "end_time": "2025-11-26T12:58:49.044296",
+        "quantidade": 1000,
+        "duracao_h": 3.3333333333333335,
+        "family": "Brunir à Lixa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 2",
+        "artigo": "GO Artigo 2",
+        "op_id": "32",
+        "rota": "A",
+        "maquina_id": "16",
+        "start_time": "2025-11-25T21:36:56.187153",
+        "end_time": "2025-11-25T23:19:47.615724",
+        "quantidade": 1000,
+        "duracao_h": 0.7142857142857143,
+        "family": "Corte Peça"
+      },
+      {
+        "order_id": "ORD-GO Artigo 2",
+        "artigo": "GO Artigo 2",
+        "op_id": "48",
+        "rota": "A",
+        "maquina_id": "191",
+        "start_time": "2025-11-25T23:19:47.615724",
+        "end_time": "2025-11-26T01:32:39.044295",
+        "quantidade": 1000,
+        "duracao_h": 0.7142857142857143,
+        "family": "Estampagem"
+      },
+      {
+        "order_id": "ORD-GO Artigo 2",
+        "artigo": "GO Artigo 2",
+        "op_id": "134",
+        "rota": "A",
+        "maquina_id": "324",
+        "start_time": "2025-11-26T01:32:39.044295",
+        "end_time": "2025-11-26T04:00:53.161942",
+        "quantidade": 1000,
+        "duracao_h": 1.4705882352941178,
+        "family": "Brunir à Lixa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 2",
+        "artigo": "GO Artigo 2",
+        "op_id": "14",
+        "rota": "A",
+        "maquina_id": "700",
+        "start_time": "2025-11-26T04:00:53.161942",
+        "end_time": "2025-11-26T05:21:10.809001",
+        "quantidade": 1000,
+        "duracao_h": 0.5882352941176471,
+        "family": "Brunir à Massa Branca"
+      },
+      {
+        "order_id": "ORD-GO Artigo 2",
+        "artigo": "GO Artigo 2",
+        "op_id": "74",
+        "rota": "A",
+        "maquina_id": "190",
+        "start_time": "2025-11-26T05:21:10.809001",
+        "end_time": "2025-11-26T07:15:43.536274",
+        "quantidade": 1000,
+        "duracao_h": 0.9090909090909091,
+        "family": "Polimento"
+      },
+      {
+        "order_id": "ORD-GO Artigo 3",
+        "artigo": "GO Artigo 3",
+        "op_id": "33",
+        "rota": "B",
+        "maquina_id": "20",
+        "start_time": "2025-11-25T21:36:56.187153",
+        "end_time": "2025-11-26T00:06:56.187153",
+        "quantidade": 1000,
+        "duracao_h": 2.5,
+        "family": "Corte Peça"
+      },
+      {
+        "order_id": "ORD-GO Artigo 3",
+        "artigo": "GO Artigo 3",
+        "op_id": "44",
+        "rota": "B",
+        "maquina_id": "241",
+        "start_time": "2025-11-26T00:06:56.187153",
+        "end_time": "2025-11-26T01:58:36.187153",
+        "quantidade": 1000,
+        "duracao_h": 1.1111111111111112,
+        "family": "Estampagem"
+      },
+      {
+        "order_id": "ORD-GO Artigo 4",
+        "artigo": "GO Artigo 4",
+        "op_id": "132",
+        "rota": "A",
+        "maquina_id": "300",
+        "start_time": "2025-11-25T21:36:56.187153",
+        "end_time": "2025-11-26T00:46:56.187153",
+        "quantidade": 1000,
+        "duracao_h": 1.6666666666666667,
+        "family": "Laminar e Aparar Chapa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 4",
+        "artigo": "GO Artigo 4",
+        "op_id": "124",
+        "rota": "A",
+        "maquina_id": "220",
+        "start_time": "2025-11-26T00:46:56.187153",
+        "end_time": "2025-11-26T02:26:56.187153",
+        "quantidade": 1000,
+        "duracao_h": 0.6666666666666666,
+        "family": "Polimento Intermédio"
+      },
+      {
+        "order_id": "ORD-GO Artigo 4",
+        "artigo": "GO Artigo 4",
+        "op_id": "79",
+        "rota": "A",
+        "maquina_id": "208",
+        "start_time": "2025-11-26T02:26:56.187153",
+        "end_time": "2025-11-26T04:37:39.044296",
+        "quantidade": 1000,
+        "duracao_h": 1.4285714285714286,
+        "family": "Ramiar"
+      },
+      {
+        "order_id": "ORD-GO Artigo 4",
+        "artigo": "GO Artigo 4",
+        "op_id": "48",
+        "rota": "A",
+        "maquina_id": "217",
+        "start_time": "2025-11-26T04:37:39.044296",
+        "end_time": "2025-11-26T06:50:30.472867",
+        "quantidade": 1000,
+        "duracao_h": 0.7142857142857143,
+        "family": "Estampagem"
+      },
+      {
+        "order_id": "ORD-GO Artigo 4",
+        "artigo": "GO Artigo 4",
+        "op_id": "134",
+        "rota": "A",
+        "maquina_id": "303",
+        "start_time": "2025-11-26T06:50:30.472867",
+        "end_time": "2025-11-26T09:18:44.590514",
+        "quantidade": 1000,
+        "duracao_h": 1.4705882352941178,
+        "family": "Brunir à Lixa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 4",
+        "artigo": "GO Artigo 4",
+        "op_id": "14",
+        "rota": "A",
+        "maquina_id": "709",
+        "start_time": "2025-11-26T09:18:44.590514",
+        "end_time": "2025-11-26T10:39:02.237573",
+        "quantidade": 1000,
+        "duracao_h": 0.5882352941176471,
+        "family": "Brunir à Massa Branca"
+      },
+      {
+        "order_id": "ORD-GO Artigo 4",
+        "artigo": "GO Artigo 4",
+        "op_id": "74",
+        "rota": "A",
+        "maquina_id": "288",
+        "start_time": "2025-11-26T10:39:02.237573",
+        "end_time": "2025-11-26T12:38:34.964846",
+        "quantidade": 1000,
+        "duracao_h": 0.9090909090909091,
+        "family": "Polimento"
+      },
+      {
+        "order_id": "ORD-GO Artigo 5",
+        "artigo": "GO Artigo 5",
+        "op_id": "6",
+        "rota": "B",
+        "maquina_id": "267",
+        "start_time": "2025-11-25T21:36:56.187153",
+        "end_time": "2025-11-25T23:26:56.187153",
+        "quantidade": 1000,
+        "duracao_h": 1.3333333333333333,
+        "family": "Laminar e Aparar Chapa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 5",
+        "artigo": "GO Artigo 5",
+        "op_id": "55",
+        "rota": "B",
+        "maquina_id": "304",
+        "start_time": "2025-11-25T23:10:26.187153",
+        "end_time": "2025-11-26T01:35:26.187153",
+        "quantidade": 1000,
+        "duracao_h": 1.6666666666666667,
+        "family": "Laminar e Aparar Chapa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 5",
+        "artigo": "GO Artigo 5",
+        "op_id": "44",
+        "rota": "B",
+        "maquina_id": "281",
+        "start_time": "2025-11-26T06:37:49.044296",
+        "end_time": "2025-11-26T07:57:59.044296",
+        "quantidade": 1000,
+        "duracao_h": 1.1111111111111112,
+        "family": "Estampagem"
+      },
+      {
+        "order_id": "ORD-GO Artigo 5",
+        "artigo": "GO Artigo 5",
+        "op_id": "834",
+        "rota": "B",
+        "maquina_id": "27",
+        "start_time": "2025-11-26T07:57:59.044296",
+        "end_time": "2025-11-26T14:37:59.044296",
+        "quantidade": 1000,
+        "duracao_h": 6.666666666666667,
+        "family": "Lixar Dentes"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "132",
+        "rota": "A",
+        "maquina_id": "134",
+        "start_time": "2025-11-25T21:36:56.187153",
+        "end_time": "2025-11-26T00:16:56.187153",
+        "quantidade": 1000,
+        "duracao_h": 1.6666666666666667,
+        "family": "Laminar e Aparar Chapa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "124",
+        "rota": "A",
+        "maquina_id": "190",
+        "start_time": "2025-11-26T07:15:43.536274",
+        "end_time": "2025-11-26T08:55:43.536274",
+        "quantidade": 1000,
+        "duracao_h": 0.6666666666666666,
+        "family": "Polimento Intermédio"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "79",
+        "rota": "A",
+        "maquina_id": "208",
+        "start_time": "2025-11-26T08:55:43.536274",
+        "end_time": "2025-11-26T10:34:56.393417",
+        "quantidade": 1000,
+        "duracao_h": 1.4285714285714286,
+        "family": "Ramiar"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "48",
+        "rota": "A",
+        "maquina_id": "217",
+        "start_time": "2025-11-26T10:34:56.393417",
+        "end_time": "2025-11-26T11:44:47.821988",
+        "quantidade": 1000,
+        "duracao_h": 0.7142857142857143,
+        "family": "Estampagem"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "61",
+        "rota": "A",
+        "maquina_id": "215",
+        "start_time": "2025-11-26T11:44:47.821988",
+        "end_time": "2025-11-26T14:28:07.821988",
+        "quantidade": 1000,
+        "duracao_h": 2.2222222222222223,
+        "family": "Lixar Dentes"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "134",
+        "rota": "A",
+        "maquina_id": "324",
+        "start_time": "2025-11-26T14:28:07.821988",
+        "end_time": "2025-11-26T16:14:21.939635",
+        "quantidade": 1000,
+        "duracao_h": 1.4705882352941178,
+        "family": "Brunir à Lixa"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "14",
+        "rota": "A",
+        "maquina_id": "700",
+        "start_time": "2025-11-26T16:14:21.939635",
+        "end_time": "2025-11-26T17:03:09.586694",
+        "quantidade": 1000,
+        "duracao_h": 0.5882352941176471,
+        "family": "Brunir à Massa Branca"
+      },
+      {
+        "order_id": "ORD-GO Artigo 6",
+        "artigo": "GO Artigo 6",
+        "op_id": "74",
+        "rota": "A",
+        "maquina_id": "288",
+        "start_time": "2025-11-26T17:03:09.586694",
+        "end_time": "2025-11-26T18:17:12.313967",
+        "quantidade": 1000,
+        "duracao_h": 0.9090909090909091,
+        "family": "Polimento"
+      }
+    ],
+    "orders_summary": {
+      "total_orders": 6,
+      "orders": [
+        "ORD-GO Artigo 1",
+        "ORD-GO Artigo 2",
+        "ORD-GO Artigo 3",
+        "ORD-GO Artigo 4",
+        "ORD-GO Artigo 5",
+        "ORD-GO Artigo 6"
+      ]
+    },
+    "gantt_by_machine": {
+      "133": [
+        {
+          "order_id": "ORD-GO Artigo 1",
+          "op_id": "30",
+          "start_time": "2025-11-25T21:36:56.187153",
+          "end_time": "2025-11-25T23:16:56.187153",
+          "quantidade": 1000,
+          "duracao_h": 1.6666666666666667
+        }
+      ],
+      "244": [
+        {
+          "order_id": "ORD-GO Artigo 1",
+          "op_id": "33",
+          "start_time": "2025-11-25T23:01:56.187153",
+          "end_time": "2025-11-26T00:47:39.044296",
+          "quantidade": 1000,
+          "duracao_h": 1.4285714285714286
+        }
+      ],
+      "273": [
+        {
+          "order_id": "ORD-GO Artigo 1",
+          "op_id": "6",
+          "start_time": "2025-11-26T00:47:39.044296",
+          "end_time": "2025-11-26T02:37:39.044296",
+          "quantidade": 1000,
+          "duracao_h": 1.3333333333333333
+        }
+      ],
+      "205": [
+        {
+          "order_id": "ORD-GO Artigo 1",
+          "op_id": "55",
+          "start_time": "2025-11-26T02:21:09.044296",
+          "end_time": "2025-11-26T04:46:09.044296",
+          "quantidade": 1000,
+          "duracao_h": 1.6666666666666667
+        }
+      ],
+      "281": [
+        {
+          "order_id": "ORD-GO Artigo 1",
+          "op_id": "44",
+          "start_time": "2025-11-26T04:46:09.044296",
+          "end_time": "2025-11-26T06:37:49.044296",
+          "quantidade": 1000,
+          "duracao_h": 1.1111111111111112
+        },
+        {
+          "order_id": "ORD-GO Artigo 5",
+          "op_id": "44",
+          "start_time": "2025-11-26T06:37:49.044296",
+          "end_time": "2025-11-26T07:57:59.044296",
+          "quantidade": 1000,
+          "duracao_h": 1.1111111111111112
+        }
+      ],
+      "247": [
+        {
+          "order_id": "ORD-GO Artigo 1",
+          "op_id": "22",
+          "start_time": "2025-11-26T06:37:49.044296",
+          "end_time": "2025-11-26T09:27:49.044296",
+          "quantidade": 1000,
+          "duracao_h": 2.0833333333333335
+        }
+      ],
+      "248": [
+        {
+          "order_id": "ORD-GO Artigo 1",
+          "op_id": "96",
+          "start_time": "2025-11-26T08:53:49.044296",
+          "end_time": "2025-11-26T12:58:49.044296",
+          "quantidade": 1000,
+          "duracao_h": 3.3333333333333335
+        }
+      ],
+      "16": [
+        {
+          "order_id": "ORD-GO Artigo 2",
+          "op_id": "32",
+          "start_time": "2025-11-25T21:36:56.187153",
+          "end_time": "2025-11-25T23:19:47.615724",
+          "quantidade": 1000,
+          "duracao_h": 0.7142857142857143
+        }
+      ],
+      "191": [
+        {
+          "order_id": "ORD-GO Artigo 2",
+          "op_id": "48",
+          "start_time": "2025-11-25T23:19:47.615724",
+          "end_time": "2025-11-26T01:32:39.044295",
+          "quantidade": 1000,
+          "duracao_h": 0.7142857142857143
+        }
+      ],
+      "324": [
+        {
+          "order_id": "ORD-GO Artigo 2",
+          "op_id": "134",
+          "start_time": "2025-11-26T01:32:39.044295",
+          "end_time": "2025-11-26T04:00:53.161942",
+          "quantidade": 1000,
+          "duracao_h": 1.4705882352941178
+        },
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "134",
+          "start_time": "2025-11-26T14:28:07.821988",
+          "end_time": "2025-11-26T16:14:21.939635",
+          "quantidade": 1000,
+          "duracao_h": 1.4705882352941178
+        }
+      ],
+      "700": [
+        {
+          "order_id": "ORD-GO Artigo 2",
+          "op_id": "14",
+          "start_time": "2025-11-26T04:00:53.161942",
+          "end_time": "2025-11-26T05:21:10.809001",
+          "quantidade": 1000,
+          "duracao_h": 0.5882352941176471
+        },
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "14",
+          "start_time": "2025-11-26T16:14:21.939635",
+          "end_time": "2025-11-26T17:03:09.586694",
+          "quantidade": 1000,
+          "duracao_h": 0.5882352941176471
+        }
+      ],
+      "190": [
+        {
+          "order_id": "ORD-GO Artigo 2",
+          "op_id": "74",
+          "start_time": "2025-11-26T05:21:10.809001",
+          "end_time": "2025-11-26T07:15:43.536274",
+          "quantidade": 1000,
+          "duracao_h": 0.9090909090909091
+        },
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "124",
+          "start_time": "2025-11-26T07:15:43.536274",
+          "end_time": "2025-11-26T08:55:43.536274",
+          "quantidade": 1000,
+          "duracao_h": 0.6666666666666666
+        }
+      ],
+      "20": [
+        {
+          "order_id": "ORD-GO Artigo 3",
+          "op_id": "33",
+          "start_time": "2025-11-25T21:36:56.187153",
+          "end_time": "2025-11-26T00:06:56.187153",
+          "quantidade": 1000,
+          "duracao_h": 2.5
+        }
+      ],
+      "241": [
+        {
+          "order_id": "ORD-GO Artigo 3",
+          "op_id": "44",
+          "start_time": "2025-11-26T00:06:56.187153",
+          "end_time": "2025-11-26T01:58:36.187153",
+          "quantidade": 1000,
+          "duracao_h": 1.1111111111111112
+        }
+      ],
+      "300": [
+        {
+          "order_id": "ORD-GO Artigo 4",
+          "op_id": "132",
+          "start_time": "2025-11-25T21:36:56.187153",
+          "end_time": "2025-11-26T00:46:56.187153",
+          "quantidade": 1000,
+          "duracao_h": 1.6666666666666667
+        }
+      ],
+      "220": [
+        {
+          "order_id": "ORD-GO Artigo 4",
+          "op_id": "124",
+          "start_time": "2025-11-26T00:46:56.187153",
+          "end_time": "2025-11-26T02:26:56.187153",
+          "quantidade": 1000,
+          "duracao_h": 0.6666666666666666
+        }
+      ],
+      "208": [
+        {
+          "order_id": "ORD-GO Artigo 4",
+          "op_id": "79",
+          "start_time": "2025-11-26T02:26:56.187153",
+          "end_time": "2025-11-26T04:37:39.044296",
+          "quantidade": 1000,
+          "duracao_h": 1.4285714285714286
+        },
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "79",
+          "start_time": "2025-11-26T08:55:43.536274",
+          "end_time": "2025-11-26T10:34:56.393417",
+          "quantidade": 1000,
+          "duracao_h": 1.4285714285714286
+        }
+      ],
+      "217": [
+        {
+          "order_id": "ORD-GO Artigo 4",
+          "op_id": "48",
+          "start_time": "2025-11-26T04:37:39.044296",
+          "end_time": "2025-11-26T06:50:30.472867",
+          "quantidade": 1000,
+          "duracao_h": 0.7142857142857143
+        },
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "48",
+          "start_time": "2025-11-26T10:34:56.393417",
+          "end_time": "2025-11-26T11:44:47.821988",
+          "quantidade": 1000,
+          "duracao_h": 0.7142857142857143
+        }
+      ],
+      "303": [
+        {
+          "order_id": "ORD-GO Artigo 4",
+          "op_id": "134",
+          "start_time": "2025-11-26T06:50:30.472867",
+          "end_time": "2025-11-26T09:18:44.590514",
+          "quantidade": 1000,
+          "duracao_h": 1.4705882352941178
+        }
+      ],
+      "709": [
+        {
+          "order_id": "ORD-GO Artigo 4",
+          "op_id": "14",
+          "start_time": "2025-11-26T09:18:44.590514",
+          "end_time": "2025-11-26T10:39:02.237573",
+          "quantidade": 1000,
+          "duracao_h": 0.5882352941176471
+        }
+      ],
+      "288": [
+        {
+          "order_id": "ORD-GO Artigo 4",
+          "op_id": "74",
+          "start_time": "2025-11-26T10:39:02.237573",
+          "end_time": "2025-11-26T12:38:34.964846",
+          "quantidade": 1000,
+          "duracao_h": 0.9090909090909091
+        },
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "74",
+          "start_time": "2025-11-26T17:03:09.586694",
+          "end_time": "2025-11-26T18:17:12.313967",
+          "quantidade": 1000,
+          "duracao_h": 0.9090909090909091
+        }
+      ],
+      "267": [
+        {
+          "order_id": "ORD-GO Artigo 5",
+          "op_id": "6",
+          "start_time": "2025-11-25T21:36:56.187153",
+          "end_time": "2025-11-25T23:26:56.187153",
+          "quantidade": 1000,
+          "duracao_h": 1.3333333333333333
+        }
+      ],
+      "304": [
+        {
+          "order_id": "ORD-GO Artigo 5",
+          "op_id": "55",
+          "start_time": "2025-11-25T23:10:26.187153",
+          "end_time": "2025-11-26T01:35:26.187153",
+          "quantidade": 1000,
+          "duracao_h": 1.6666666666666667
+        }
+      ],
+      "27": [
+        {
+          "order_id": "ORD-GO Artigo 5",
+          "op_id": "834",
+          "start_time": "2025-11-26T07:57:59.044296",
+          "end_time": "2025-11-26T14:37:59.044296",
+          "quantidade": 1000,
+          "duracao_h": 6.666666666666667
+        }
+      ],
+      "134": [
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "132",
+          "start_time": "2025-11-25T21:36:56.187153",
+          "end_time": "2025-11-26T00:16:56.187153",
+          "quantidade": 1000,
+          "duracao_h": 1.6666666666666667
+        }
+      ],
+      "215": [
+        {
+          "order_id": "ORD-GO Artigo 6",
+          "op_id": "61",
+          "start_time": "2025-11-26T11:44:47.821988",
+          "end_time": "2025-11-26T14:28:07.821988",
+          "quantidade": 1000,
+          "duracao_h": 2.2222222222222223
+        }
+      ],
+      "29": [],
+      "329": []
+    },
+    "all_machines": [
+      "133",
+      "134",
+      "16",
+      "190",
+      "191",
+      "20",
+      "205",
+      "208",
+      "215",
+      "217",
+      "220",
+      "241",
+      "244",
+      "247",
+      "248",
+      "267",
+      "27",
+      "273",
+      "281",
+      "288",
+      "29",
+      "300",
+      "303",
+      "304",
+      "324",
+      "329",
+      "700",
+      "709"
+    ]
+  },
+  "config": {
+    "objective": {
+      "weight_lead_time": 0.5,
+      "weight_setups": 0.3,
+      "weight_bottleneck_balance": 0.2,
+      "weight_otd": 0.4
+    },
+    "overlap": {
+      "max_transformacao": 0.3,
+      "max_acabamentos": 0.15,
+      "max_embalagem": 0.25,
+      "reduce_for_slow_ops": true
+    },
+    "routing_preferences": {
+      "prefer_route": {},
+      "avoid_machine": [],
+      "prefer_fast_machines": true
+    },
+    "family_grouping": {
+      "enabled": true,
+      "setup_reduction_pct": 0.7,
+      "min_family_size": 2
+    },
+    "priorities": {
+      "vip_orders": [],
+      "custom_priorities": {}
+    }
+  },
+  "orders_summary": {
+    "total_orders": 6,
+    "orders": [
+      "ORD-GO Artigo 1",
+      "ORD-GO Artigo 2",
+      "ORD-GO Artigo 3",
+      "ORD-GO Artigo 4",
+      "ORD-GO Artigo 5",
+      "ORD-GO Artigo 6"
+    ]
+  }
+}

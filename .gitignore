@@ -138,3 +138,16 @@ data/experiments/
 # Local configuration
 config.local.*
 settings.local.*
+
+# Temporary documentation files
+*DEBUG*.md
+*CORRECOES*.md
+*STATUS*.md
+*FIXES*.md
+*ANALISE*.md
+*CONTRACT*.md
+FEATURES_MISSING*.md
+PRODPLAN_FULL*.md
+PRODPLAN_MODELS*.md
+*_IMPROVEMENTS.md
+*_gap_report.md
